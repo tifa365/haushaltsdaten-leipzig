@@ -1,0 +1,541 @@
+{
+  "id": "G",
+  "name": "Ver- & Entsorgung",
+  "color": "#B7A45A",
+  "value": 18116373.840000004,
+  "valueMio": 18.1,
+  "itemCount": 59,
+  "products": [
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 18350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 18350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 165200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 165200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 34250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 34250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5360",
+      "description": "Breitbandversorgung (5360...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 13841900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42912000 - Aufwend.sonst.Dienstleistungen dezentral"
+    },
+    {
+      "productCode": "5360",
+      "description": "Breitbandversorgung (5360...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42912000 - Aufwend.sonst.Dienstleistungen dezentral"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5370",
+      "description": "Abfallwirtschaft (5370...)",
+      "amt": "923 - Dezernat III",
+      "teilhaushalt": "Dezernat III",
+      "value": 3660700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "5330-066",
+      "description": "Wasserversorgung Amt 66 (5330-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2461.92,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5380",
+      "description": "Abwasserbeseitigung (5380...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2461.92,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5330-923",
+      "description": "Wasserversorgung Dez III (5330-9...)",
+      "amt": "923 - Dezernat III",
+      "teilhaushalt": "Dezernat III",
+      "value": 82000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    },
+    {
+      "productCode": "5330-067",
+      "description": "Wasserversorgung Amt 67 (5330-0...)",
+      "amt": "67 - Amt für Stadtgrün und Gewässer",
+      "teilhaushalt": "Dezernat III",
+      "value": 3000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    }
+  ]
+}

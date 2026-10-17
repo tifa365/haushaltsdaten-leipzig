@@ -1,0 +1,2512 @@
+{
+  "id": "H",
+  "name": "Verkehr & Mobilität",
+  "color": "#B07A5A",
+  "value": 126122800.47000003,
+  "valueMio": 126.1,
+  "itemCount": 278,
+  "products": [
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 44000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12196500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 544000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 272350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 543400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 238000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 202300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 994550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1557550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 516850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 23050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 11550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 23000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 8100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 41250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 66700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2538950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 113200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 56700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 113100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 49750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 40900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 209200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 319150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 10450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 142000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 28000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42113000 - Pflege Freiflächen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42113000 - Pflege Freiflächen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42113000 - Pflege Freiflächen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42113000 - Pflege Freiflächen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 18000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 110000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6257600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2945450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1664400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1365000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6377300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1666800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 863700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 341000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 78950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 55900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 76800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 117450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 87150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 40200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 197750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 45800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 32300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 44450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 68100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 23300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 122450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 28300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 27550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 42150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 31300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 14450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 252800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 15000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 535000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42211000 - Unterhaltung Infrastrukturmaßnahmen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 17500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 124300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 420300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 34350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 17500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 21732350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419150 - KR Oberflächenwasserbeseitigung"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1004750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419150 - KR Oberflächenwasserbeseitigung"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 582900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419150 - KR Oberflächenwasserbeseitigung"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 360800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419150 - KR Oberflächenwasserbeseitigung"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 32100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6050,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 11350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 28000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 129350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 8600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 24500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 21000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5670500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711100 - Bes. Verwaltungs-/ Betriebsaufw. zentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 295000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711100 - Bes. Verwaltungs-/ Betriebsaufw. zentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 156450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711100 - Bes. Verwaltungs-/ Betriebsaufw. zentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 463400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711100 - Bes. Verwaltungs-/ Betriebsaufw. zentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 17250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719110 - KR Vermessungskosten"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719110 - KR Vermessungskosten"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719110 - KR Vermessungskosten"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719110 - KR Vermessungskosten"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719120 - KR diverse Planungsaufwendungen"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719200 - KR Aufwendungen Öffentlichkeitsarbeit"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719250 - KR Aufwendungen. f. Veranstaltungen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 428750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719330 - KR Vorbereitende Straßenplanung"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719330 - KR Vorbereitende Straßenplanung"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719330 - KR Vorbereitende Straßenplanung"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719330 - KR Vorbereitende Straßenplanung"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 190100,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43120000 - Zuweisungen Gemeinden-/ verbände"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 94050,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44210000 - Aufwendungen für ehrenamtliche Tätigkeit"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 624400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 27850,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 13400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 27850,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 31700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 71050,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 73050,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 11600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 333350,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299110 - KR Mitgliedsbeiträge Vereine/Verbände"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 35000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 26100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 30000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 60000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 19000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 150,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44412200 - Versicherungen dezentral"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44413200 - Schadensfälle dezentral"
+    },
+    {
+      "productCode": "5451",
+      "description": "Straßenreinigung (5451...)",
+      "amt": "923 - Dezernat III",
+      "teilhaushalt": "Dezernat III",
+      "value": 5924200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "5452",
+      "description": "Winterdienst Gemeindestraßen,Wege,Plätze (5452...)",
+      "amt": "923 - Dezernat III",
+      "teilhaushalt": "Dezernat III",
+      "value": 3918300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 60000,
+      "costType": "15 Zinsen und sonstige Finanzaufwendungen",
+      "accountDescription": "45990000 - Sonstige Finanzaufwendungen"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 31425718.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1449562.95,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 774946.7,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2370582.45,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5460",
+      "description": "Parkeinrichtungen (5460...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 61138.97,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 73605.47,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5490-072",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 408.17,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10278.59,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5490-066",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 72970.43,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1230447.77,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5420",
+      "description": "Kreisstraßen (5420...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 63547.68,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 33987.31,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100105.5,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5410",
+      "description": "Gemeindestraßen (5410...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 26000,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    },
+    {
+      "productCode": "5430",
+      "description": "Staatsstraßen (5430...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    },
+    {
+      "productCode": "5440",
+      "description": "Bundesstraßen (5440...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    }
+  ]
+}

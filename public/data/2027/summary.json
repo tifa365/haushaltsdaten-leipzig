@@ -1,0 +1,123 @@
+{
+  "year": 2027,
+  "status": "entwurf",
+  "label": "Entwurf Doppelhaushalt 2027/28",
+  "stand": "2026-09-02",
+  "total": 2629465397.280006,
+  "totalMrd": 2.629,
+  "totalMio": 2629.5,
+  "itemCount": 8602,
+  "blockCount": 11,
+  "blocks": [
+    {
+      "id": "C",
+      "name": "Soziales & Jugend",
+      "shortName": "Soziales & Jugend",
+      "color": "#9BA050",
+      "value": 1103872335.5699983,
+      "valueMio": 1103.9,
+      "percentage": 42,
+      "itemCount": 1703
+    },
+    {
+      "id": "A",
+      "name": "Verwaltung & Sicherheit",
+      "shortName": "Verwaltung & Sicherheit",
+      "color": "#4A5F7D",
+      "value": 425932387.6300002,
+      "valueMio": 425.9,
+      "percentage": 16.2,
+      "itemCount": 2094
+    },
+    {
+      "id": "B",
+      "name": "Bildung & Kultur",
+      "shortName": "Bildung & Kultur",
+      "color": "#5D8F87",
+      "value": 391280880.43,
+      "valueMio": 391.3,
+      "percentage": 14.9,
+      "itemCount": 2653
+    },
+    {
+      "id": "K",
+      "name": "Finanzwirtschaft",
+      "shortName": "Finanzwirtschaft",
+      "color": "#6A80A0",
+      "value": 298106600,
+      "valueMio": 298.1,
+      "percentage": 11.3,
+      "itemCount": 20
+    },
+    {
+      "id": "H",
+      "name": "Verkehr & Mobilität",
+      "shortName": "Verkehr & Mobilität",
+      "color": "#B07A5A",
+      "value": 126122800.47000003,
+      "valueMio": 126.1,
+      "percentage": 4.8,
+      "itemCount": 278
+    },
+    {
+      "id": "F",
+      "name": "Stadtentwicklung & Wohnen",
+      "shortName": "Stadtentwicklung & Wohnen",
+      "color": "#6C6C73",
+      "value": 89771387.14999996,
+      "valueMio": 89.8,
+      "percentage": 3.4,
+      "itemCount": 326
+    },
+    {
+      "id": "I",
+      "name": "Umwelt & Grün",
+      "shortName": "Umwelt & Grün",
+      "color": "#6F5D75",
+      "value": 70435504.19000003,
+      "valueMio": 70.4,
+      "percentage": 2.7,
+      "itemCount": 847
+    },
+    {
+      "id": "J",
+      "name": "Wirtschaft & Tourismus",
+      "shortName": "Wirtschaft & Tourismus",
+      "color": "#5E7048",
+      "value": 37443971.06999999,
+      "valueMio": 37.4,
+      "percentage": 1.4,
+      "itemCount": 225
+    },
+    {
+      "id": "E",
+      "name": "Sport & Bäder",
+      "shortName": "Sport & Bäder",
+      "color": "#9D7A90",
+      "value": 35971398.559999995,
+      "valueMio": 36,
+      "percentage": 1.4,
+      "itemCount": 71
+    },
+    {
+      "id": "D",
+      "name": "Gesundheit",
+      "shortName": "Gesundheit",
+      "color": "#A78B6A",
+      "value": 32411758.37000001,
+      "valueMio": 32.4,
+      "percentage": 1.2,
+      "itemCount": 326
+    },
+    {
+      "id": "G",
+      "name": "Ver- & Entsorgung",
+      "shortName": "Ver- & Entsorgung",
+      "color": "#B7A45A",
+      "value": 18116373.840000004,
+      "valueMio": 18.1,
+      "percentage": 0.7,
+      "itemCount": 59
+    }
+  ]
+}

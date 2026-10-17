@@ -6,7 +6,7 @@
     "cm": "cz",
     "data:process": "node scripts/process-leipzig-data.js",
     "data:generate": "node scripts/generate-static-json.js",
-    "data:build": "npm run data:process && npm run data:generate",
+    "data:build": "npm run data:download && npm run data:process && npm run data:generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -18,7 +18,8 @@
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "data:download": "node scripts/download-data.js"
   },
   "config": {
     "commitizen": {

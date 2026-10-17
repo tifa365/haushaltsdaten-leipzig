@@ -1,0 +1,2944 @@
+{
+  "id": "F",
+  "name": "Stadtentwicklung & Wohnen",
+  "color": "#6C6C73",
+  "value": 90672415.44999999,
+  "valueMio": 90.7,
+  "itemCount": 326,
+  "products": [
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 322600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 199300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 141250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 106400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 126050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 35450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 103200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 178850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 82900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7464450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3437250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4124900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 344900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 868950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1461300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1225500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3990450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1108600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 688150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1655600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1265950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 722400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40190000 - Dienstaufwendungen sonst. Beschäftigte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 196750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 231550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 44750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 43000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 91400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 40300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 317250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 144250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 174300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 14600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 37050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 38500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 63100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 52900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 167700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 46350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 28700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 70700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 53550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 30100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1560250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 718050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 863450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 73250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 187500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 194350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 317400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 260950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 843150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 233250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 146500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 360500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 262550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 154850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40411000 - Beihilfen u. Unterstützung Beamte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40411000 - Beihilfen u. Unterstützung Beamte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40411000 - Beihilfen u. Unterstützung Beamte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 17600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 14100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 15000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 0,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 14150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 61650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 8350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 11400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 15250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419230 - KR sonst. Entsorgung Schrott,Sperrmüll.."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419230 - KR sonst. Entsorgung Schrott,Sperrmüll.."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419230 - KR sonst. Entsorgung Schrott,Sperrmüll.."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419230 - KR sonst. Entsorgung Schrott,Sperrmüll.."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419230 - KR sonst. Entsorgung Schrott,Sperrmüll.."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511100 - Aufwend. Haltung Fahrzeuge zentral"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 15800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 30000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 48700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 16000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 143100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 21950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 17850,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 8800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 26000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619120 - KR Erwerb von Schutzkleidung"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 950,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619160 - KR Aus/Fortbildung Besch."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619161 - KR Aus/Fortbildung Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619161 - KR Aus/Fortbildung Beamte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 490000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 419550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 290000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 52400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 55000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 115000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719120 - KR diverse Planungsaufwendungen"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719180 - KR Lehr- und Unterrichtsmaterial"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719200 - KR Aufwendungen Öffentlichkeitsarbeit"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719250 - KR Aufwendungen. f. Veranstaltungen"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 130000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719270 - KR Aufwendungen sonstige Projekte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 30000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719270 - KR Aufwendungen sonstige Projekte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 0,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719270 - KR Aufwendungen sonstige Projekte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819120 - KR Arzneimittel/Verbandstoffe/Sanitätsb."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819190 - KR Karten- und Vermarkungsmaterial"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819190 - KR Karten- und Vermarkungsmaterial"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42912000 - Aufwend.sonst.Dienstleistungen dezentral"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 248000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43130000 - Zuweisungen an Zweckverbände/ dgl."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 24551900,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 17500000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150001 - Zuschü. verb. U., SVM, Beteilig.ohne FR"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44210000 - Aufwendungen für ehrenamtliche Tätigkeit"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 406250,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 65300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 136600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 26150,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 37750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 70550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 78200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 41450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 165000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 72950,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 58550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 28550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 19200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 8000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 13000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 150,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299110 - KR Mitgliedsbeiträge Vereine/Verbände"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 40400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 11550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4150,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 33400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310800 - öffentliche Bekanntmachungen"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 6500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310910 - Reisekosten Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310910 - Reisekosten Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310910 - Reisekosten Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310910 - Reisekosten Beamte"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310910 - Reisekosten Beamte"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 9000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5111-926",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Dez VI (5111-9...)",
+      "amt": "926 - Dezernat VI",
+      "teilhaushalt": "Dezernat VI",
+      "value": 216200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 32000,
+      "costType": "15 Zinsen und sonstige Finanzaufwendungen",
+      "accountDescription": "45990000 - Sonstige Finanzaufwendungen"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 12020.01,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 20129.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 51328.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 14793.81,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 21445.58,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 52687.35,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 45512.69,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 24226.21,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 10469.44,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5210",
+      "description": "Bau- und Grundstücksordnung (5210...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3926.35,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1187.71,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5220-050",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 16183.95,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5230",
+      "description": "Denkmalschutz und -pflege (5230...)",
+      "amt": "63 - Amt für Bauordnung und Denkmalpflege",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3271.94,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1924202.19,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5220-064",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 1208280.26,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5111-023",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 23 (5111-0...)",
+      "amt": "23 - Liegenschaftsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 475000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "ILV",
+      "accountDescription": "48111000 - Aufw. a.int. Lstgsbez.(Steuerungsleistg."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 3000,
+      "costType": "ILV",
+      "accountDescription": "48111000 - Aufw. a.int. Lstgsbez.(Steuerungsleistg."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7000,
+      "costType": "ILV",
+      "accountDescription": "48111000 - Aufw. a.int. Lstgsbez.(Steuerungsleistg."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 7000,
+      "costType": "ILV",
+      "accountDescription": "48111000 - Aufw. a.int. Lstgsbez.(Steuerungsleistg."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 4000,
+      "costType": "ILV",
+      "accountDescription": "48111000 - Aufw. a.int. Lstgsbez.(Steuerungsleistg."
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 16000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 22000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 41000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 45000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5120",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
+      "amt": "62 - Amt für Geoinformation und Bodenordnung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 24000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5111-061",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
+      "amt": "61 - Stadtplanungsamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 5000,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    },
+    {
+      "productCode": "5111-066",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
+      "amt": "66 - Mobilitäts- und Tiefbauamt",
+      "teilhaushalt": "Dezernat VI",
+      "value": 100,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    },
+    {
+      "productCode": "5111-064",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
+      "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
+      "teilhaushalt": "Dezernat VI",
+      "value": 2000,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    }
+  ]
+}

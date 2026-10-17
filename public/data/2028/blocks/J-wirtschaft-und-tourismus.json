@@ -1,0 +1,2035 @@
+{
+  "id": "J",
+  "name": "Wirtschaft & Tourismus",
+  "color": "#5E7048",
+  "value": 35642902.36,
+  "valueMio": 35.6,
+  "itemCount": 225,
+  "products": [
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 220050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1004250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 496500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 126450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 253050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 113050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 128950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 272200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 219700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 977100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 403650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 310750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5750",
+      "description": "Tourismus (5750...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 132200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 148200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1604000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 14750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 27000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 9300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 42200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 20900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 5350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 10600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 4750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 5400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 11500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 9250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 40350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 16550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 12400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5750",
+      "description": "Tourismus (5750...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 5600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 6250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 66850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 46650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 213150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 104000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 26550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 54050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 23600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 26900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 56250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 45200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 205850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 86650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 64150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5750",
+      "description": "Tourismus (5750...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 27750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 30850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 336150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 5750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 13200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 7000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 12000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 110000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 7500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 10000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42119000 - UH Grundstücke/ baul. Anlagen"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 9050,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 28000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 23000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 124850,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42319130 - KR Mieten und Pachten f. Märkte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 4800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419110 - KR Wasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419120 - KR Abwasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 10500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419120 - KR Abwasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419120 - KR Abwasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 15500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419120 - KR Abwasser"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 35000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 155000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 80000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 80000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419130 - KR Strom"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419140 - KR Heizkosten"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419140 - KR Heizkosten"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 17150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 56000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419270 - KR Straßenreinigung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 76000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419270 - KR Straßenreinigung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 5500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419270 - KR Straßenreinigung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 5500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419270 - KR Straßenreinigung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 24600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 84550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 11200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419900 - KR Sonstige Bewirtschaftungsaufwendungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419900 - KR Sonstige Bewirtschaftungsaufwendungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 5500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419900 - KR Sonstige Bewirtschaftungsaufwendungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419900 - KR Sonstige Bewirtschaftungsaufwendungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419900 - KR Sonstige Bewirtschaftungsaufwendungen"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 6000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 34600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 2700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 37200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619120 - KR Erwerb von Schutzkleidung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42619120 - KR Erwerb von Schutzkleidung"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 45000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 65000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 238000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 35000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 150000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 246550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 20000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 154300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 30000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 100000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 4400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719200 - KR Aufwendungen Öffentlichkeitsarbeit"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 43000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719200 - KR Aufwendungen Öffentlichkeitsarbeit"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719250 - KR Aufwendungen. f. Veranstaltungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 450000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719250 - KR Aufwendungen. f. Veranstaltungen"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719900 - KR Sonst. Verwaltungs-/ Betriebsaufwend."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719900 - KR Sonst. Verwaltungs-/ Betriebsaufwend."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819170 - KR Werkstättenbedarf (Werkz./Kleinmat.)"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819170 - KR Werkstättenbedarf (Werkz./Kleinmat.)"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 83000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42912000 - Aufwend.sonst.Dienstleistungen dezentral"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1467000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 4727800,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "5750",
+      "description": "Tourismus (5750...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3900000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43160000 - Zuw/Zusch lfdZw sonst. öff. Sonderrechng"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 400000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 880000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 661950,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "5730-002",
+      "description": "Allgem. Einricht. u. Unternehmen OBM II (5730-0...)",
+      "amt": "02 - GB OBM Kommunalwirtschaft",
+      "teilhaushalt": "Oberbürgermeiter",
+      "value": 5000000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43919100 - Gesellschafterbeiträge"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 159800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 47800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 76350,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44232000 - Datenverarbeitung dezentral"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 32000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299110 - KR Mitgliedsbeiträge Vereine/Verbände"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299110 - KR Mitgliedsbeiträge Vereine/Verbände"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 60,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 140,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1250,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 3000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 28400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 6000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 10000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 6000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44410100 - Körperschaftssteuer zzgl. Soli"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 9000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44410100 - Körperschaftssteuer zzgl. Soli"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 7500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44410100 - Körperschaftssteuer zzgl. Soli"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44412200 - Versicherungen dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44412200 - Versicherungen dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44412200 - Versicherungen dezentral"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 50,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44412200 - Versicherungen dezentral"
+    },
+    {
+      "productCode": "5730-002",
+      "description": "Allgem. Einricht. u. Unternehmen OBM II (5730-0...)",
+      "amt": "02 - GB OBM Kommunalwirtschaft",
+      "teilhaushalt": "Oberbürgermeiter",
+      "value": 1781550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 57.33,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 187987.24,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3091.77,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1481.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2028.71,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 174,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 2760.19,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 170.16,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 130.28,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 246.97,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 1008.61,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 147.12,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 169.32,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 419.97,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 141.54,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 6448.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 12245.04,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 111374.55,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 146353.77,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 3055.56,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 1147.72,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 828.92,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 263877.01,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 20833.33,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5710-081",
+      "description": "Wirtschaftsförderung Amt 81 (5710-0...)",
+      "amt": "81 - Referat Beschäftigungspolitik",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 100406.62,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 416.67,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5710-082",
+      "description": "Wirtschaftsförderung Amt 82 (5710-0...)",
+      "amt": "82 - Referat Digitale Stadt",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 5500,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "5730-002",
+      "description": "Allgem. Einricht. u. Unternehmen OBM II (5730-0...)",
+      "amt": "02 - GB OBM Kommunalwirtschaft",
+      "teilhaushalt": "Oberbürgermeiter",
+      "value": 4551000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    },
+    {
+      "productCode": "5730-921",
+      "description": "Allgem. Einricht. u. Unternehmen Dez I (5730-9...)",
+      "amt": "921 - Dezernat I",
+      "teilhaushalt": "Dezernat I",
+      "value": 48300,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    },
+    {
+      "productCode": "5710-080",
+      "description": "Wirtschaftsförderung Amt 80 (5710-0...)",
+      "amt": "80 - Amt für Wirtschaftsförderung",
+      "teilhaushalt": "Dezernat VIII",
+      "value": 7000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    },
+    {
+      "productCode": "5730-072",
+      "description": "Allgem. Einricht. u. Unternehmen Amt 72 (5730-0...)",
+      "amt": "72 - Marktamt",
+      "teilhaushalt": "Dezernat IV",
+      "value": 9000,
+      "costType": "ILV",
+      "accountDescription": "48112000 - Aufw. a.int. Lstgsbez. (Serviceleistg.)"
+    }
+  ]
+}

@@ -1,291 +1,227 @@
 #!/usr/bin/env node
 /**
- * Generate static JSON files for Leipzig budget visualization
- * Pure Node.js - no database needed
+ * Generate static JSON files for the Leipzig budget visualization.
+ * Input:  src/data/leipzig-budget-data.json (from scripts/process-leipzig-data.js)
+ * Output: public/data/{year}/{summary,treemap,list}.json, public/data/{year}/blocks/*.json,
+ *         public/data/meta.json
+ * Pure Node.js - no database needed.
  */
 
 const fs = require('fs');
 const path = require('path');
 
-function loadProcessedData() {
-  const dataFile = path.join(__dirname, '..', 'src', 'data', 'leipzig-budget-data.json');
+const INPUT_FILE = path.join(__dirname, '..', 'src', 'data', 'leipzig-budget-data.json');
+const OUTPUT_BASE = path.join(__dirname, '..', 'public', 'data');
 
-  if (!fs.existsSync(dataFile)) {
+function loadProcessedData() {
+  if (!fs.existsSync(INPUT_FILE)) {
     console.error('✗ ERROR: leipzig-budget-data.json not found');
     console.error('  Run: npm run data:process first');
     return null;
   }
-
-  const raw = fs.readFileSync(dataFile, 'utf-8');
-  return JSON.parse(raw);
+  return JSON.parse(fs.readFileSync(INPUT_FILE, 'utf-8'));
 }
 
-function createTreemapHierarchy(budgetData, year) {
-  const aggregated = budgetData.aggregated;
-  const field = year === '2025' ? 'plan2025' : 'plan2026';
+/** "6110-050 - Steuern, allg. Zuw." → "Steuern, allg. Zuw. (6110-0...)" */
+function formatWithShortCode(description, code) {
+  const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
+  const text = match ? match[1] : description;
+  return `${text} (${code.substring(0, 6)}...)`;
+}
 
+/** "401110 - Beamtenbezüge" → "Beamtenbezüge (401110...)" */
+function formatAccount(accountDescription) {
+  const match = accountDescription.match(/^([\d-]+)\s*-\s*(.+)$/);
+  if (!match) return accountDescription;
+  return `${match[2]} (${match[1].substring(0, 6)}...)`;
+}
+
+function createTreemapHierarchy(source, year) {
   const children = [];
 
-  for (const blockId of Object.keys(aggregated).sort()) {
-    const blockData = aggregated[blockId];
-
-    // Group items by product code
+  for (const blockId of Object.keys(source.aggregated).sort()) {
+    const blockData = source.aggregated[blockId];
     const products = {};
 
     for (const item of blockData.items) {
       const pc = item.productCode;
-
       if (!products[pc]) {
-        products[pc] = {
-          value: 0,
-          description: item.description,
-          items: []
-        };
+        products[pc] = { value: 0, description: item.description, items: [] };
       }
-
-      products[pc].value += item[field];
-
-      // Format account description: "Description (AccountCode...)"
-      let accountDesc = item.accountDescription;
-      const accountMatch = accountDesc.match(/^([\d-]+)\s*-\s*(.+)$/);
-      if (accountMatch) {
-        const accountCode = accountMatch[1];
-        const accountName = accountMatch[2];
-        const shortAccount = accountCode.substring(0, 6);
-        accountDesc = `${accountName} (${shortAccount}...)`;
-      }
-
+      products[pc].value += item.plan[year];
       products[pc].items.push({
-        name: accountDesc,
-        value: item[field],
-        amt: item.amt
+        name: formatAccount(item.accountDescription),
+        value: item.plan[year],
+        amt: item.amt,
       });
     }
 
-    // Build product children
-    const productChildren = Object.entries(products).map(([pc, prodData]) => {
-      // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
-      let description = prodData.description;
-      const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
-      if (match) {
-        description = match[1]; // Get text after "ProductCode - "
-      }
+    const productChildren = Object.entries(products).map(([pc, prodData]) => ({
+      id: pc,
+      name: formatWithShortCode(prodData.description, pc),
+      value: prodData.value,
+      children: prodData.items.length > 1 ? prodData.items : [],
+    }));
 
-      // Show first 6 digits of product code in brackets
-      const shortCode = pc.substring(0, 6);
-      const formattedName = `${description} (${shortCode}...)`;
-
-      return {
-        id: pc,
-        name: formattedName,
-        value: prodData.value,
-        children: prodData.items.length > 1 ? prodData.items : []
-      };
-    });
-
-    // Add block
     children.push({
       id: blockId,
       name: blockData.name,
-      value: blockData[field],
+      value: blockData.plan[year],
       color: blockData.color,
-      children: productChildren
+      children: productChildren,
     });
   }
 
-  return {
-    id: 'root',
-    name: `Leipzig Haushalt ${year}`,
-    children: children
-  };
+  const suffix = source.status === 'entwurf' ? ' (Entwurf)' : '';
+  return { id: 'root', name: `Leipzig Haushalt ${year}${suffix}`, children };
 }
 
-function createSummaryStats(budgetData, year) {
-  const field = year === '2025' ? 'plan2025' : 'plan2026';
-  const fieldMrd = year === '2025' ? 'total2025Mrd' : 'total2026Mrd';
-  const aggregated = budgetData.aggregated;
+function createSummaryStats(source, year) {
+  const total = source.totals[year];
+  const sorted = Object.entries(source.aggregated).sort((a, b) => b[1].plan[year] - a[1].plan[year]);
 
-  const sorted = Object.entries(aggregated)
-    .sort((a, b) => b[1][field] - a[1][field]);
-
-  const total = budgetData.metadata[`total${year}`];
-
-  const blocksSummary = sorted.map(([blockId, blockData]) => ({
+  const blocks = sorted.map(([blockId, b]) => ({
     id: blockId,
-    name: blockData.name,
-    shortName: blockData.name,
-    color: blockData.color,
-    value: blockData[field],
-    valueMio: Math.round(blockData[field] / 1e6 * 10) / 10,
-    percentage: Math.round((blockData[field] / total * 100) * 10) / 10,
-    itemCount: blockData.itemCount
+    name: b.name,
+    shortName: b.name,
+    color: b.color,
+    value: b.plan[year],
+    valueMio: Math.round((b.plan[year] / 1e6) * 10) / 10,
+    percentage: Math.round((b.plan[year] / total) * 1000) / 10,
+    itemCount: b.itemCount,
   }));
 
   return {
-    year: parseInt(year),
-    total: total,
-    totalMrd: budgetData.metadata[fieldMrd],
-    totalMio: Math.round(total / 1e6 * 10) / 10,
-    itemCount: budgetData.metadata.totalItems,
-    blockCount: Object.keys(aggregated).length,
-    blocks: blocksSummary
+    year,
+    status: source.status,
+    label: source.label,
+    stand: source.stand,
+    total,
+    totalMrd: source.totalsMrd[year],
+    totalMio: Math.round((total / 1e6) * 10) / 10,
+    itemCount: source.itemCount,
+    blockCount: Object.keys(source.aggregated).length,
+    blocks,
   };
 }
 
-function createFlatList(budgetData, year) {
-  const field = year === '2025' ? 'plan2025' : 'plan2026';
-  const items = budgetData.items;
-
-  const flatList = items.map(item => {
-    // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
-    // Extract description without product code prefix if it exists
-    let description = item.description;
-    const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
-    if (match) {
-      description = match[1]; // Get text after "ProductCode - "
-    }
-
-    // Show first 6 digits of product code in brackets
-    const shortCode = item.productCode.substring(0, 6);
-    const formattedTitle = `${description} (${shortCode}...)`;
-
-    return {
-      id: item.productCode,
-      title: formattedTitle,
-      amount: item[field],
-      group: item.policyBlockName,
-      groupId: item.policyBlock,
-      district: item.amt,
-      productCode: item.productCode,
-      costType: item.costTypePosition
-    };
-  });
-
+function createFlatList(source, year) {
+  const flatList = source.items.map((item) => ({
+    id: item.productCode,
+    title: formatWithShortCode(item.description, item.productCode),
+    amount: item.plan[year],
+    group: item.policyBlockName,
+    groupId: item.policyBlock,
+    district: item.amt,
+    productCode: item.productCode,
+    costType: item.costTypePosition,
+  }));
   flatList.sort((a, b) => b.amount - a.amount);
-
   return flatList;
 }
 
-function createBlocksDetail(budgetData, year) {
-  const field = year === '2025' ? 'plan2025' : 'plan2026';
-  const aggregated = budgetData.aggregated;
-
+function createBlocksDetail(source, year) {
   const blocksDetail = {};
-
-  for (const [blockId, blockData] of Object.entries(aggregated)) {
-    const products = blockData.items.map(item => {
-      // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
-      let description = item.description;
-      const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
-      if (match) {
-        description = match[1]; // Get text after "ProductCode - "
-      }
-
-      // Show first 6 digits of product code in brackets
-      const shortCode = item.productCode.substring(0, 6);
-      const formattedDescription = `${description} (${shortCode}...)`;
-
-      return {
-        productCode: item.productCode,
-        description: formattedDescription,
-        amt: item.amt,
-        teilhaushalt: item.teilhaushalt,
-        value: item[field],
-        costType: item.costTypePosition,
-        accountDescription: item.accountDescription
-      };
-    });
-
+  for (const [blockId, b] of Object.entries(source.aggregated)) {
     blocksDetail[blockId] = {
       id: blockId,
-      name: blockData.name,
-      color: blockData.color,
-      value: blockData[field],
-      valueMio: Math.round(blockData[field] / 1e6 * 10) / 10,
-      itemCount: blockData.itemCount,
-      products: products
+      name: b.name,
+      color: b.color,
+      value: b.plan[year],
+      valueMio: Math.round((b.plan[year] / 1e6) * 10) / 10,
+      itemCount: b.itemCount,
+      products: b.items.map((item) => ({
+        productCode: item.productCode,
+        description: formatWithShortCode(item.description, item.productCode),
+        amt: item.amt,
+        teilhaushalt: item.teilhaushalt,
+        value: item.plan[year],
+        costType: item.costTypePosition,
+        accountDescription: item.accountDescription,
+      })),
     };
   }
-
   return blocksDetail;
 }
 
 function writeJSON(filepath, data) {
-  const dir = path.dirname(filepath);
-
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-
+  fs.mkdirSync(path.dirname(filepath), { recursive: true });
   fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf-8');
-
   const sizeKB = fs.statSync(filepath).size / 1024;
-  const relativePath = path.relative(process.cwd(), filepath);
-  console.log(`  ✓ ${relativePath.padEnd(50)} (${sizeKB.toFixed(1).padStart(6)} KB)`);
+  console.log(`  ✓ ${path.relative(process.cwd(), filepath).padEnd(60)} (${sizeKB.toFixed(1).padStart(7)} KB)`);
 }
 
 function main() {
   console.log('\n' + '='.repeat(80));
   console.log('GENERATING STATIC JSON FILES');
-  console.log('='.repeat(80) + '\n');
+  console.log('='.repeat(80));
 
   const budgetData = loadProcessedData();
-  if (!budgetData) {
-    process.exit(1);
-  }
+  if (!budgetData) process.exit(1);
 
-  const outputBase = path.join(__dirname, '..', 'public', 'data');
-
-  // Generate for both years
-  for (const year of ['2025', '2026']) {
-    console.log(`\nGenerating ${year} data...`);
-    const yearDir = path.join(outputBase, year);
-
-    // 1. Summary stats
-    const summary = createSummaryStats(budgetData, year);
-    writeJSON(path.join(yearDir, 'summary.json'), summary);
-
-    // 2. Treemap hierarchy
-    const treemap = createTreemapHierarchy(budgetData, year);
-    writeJSON(path.join(yearDir, 'treemap.json'), treemap);
-
-    // 3. Flat list
-    const flatList = createFlatList(budgetData, year);
-    writeJSON(path.join(yearDir, 'list.json'), flatList);
-
-    // 4. Detailed blocks
-    const blocksDetail = createBlocksDetail(budgetData, year);
-    const blocksDir = path.join(yearDir, 'blocks');
-
-    for (const [blockId, blockData] of Object.entries(blocksDetail)) {
-      const filename = `${blockId}-${blockData.name.toLowerCase().replace(/ /g, '-').replace(/&/g, 'und')}.json`;
-      writeJSON(path.join(blocksDir, filename), blockData);
+  // Remove stale year folders so the output always mirrors the sources
+  if (fs.existsSync(OUTPUT_BASE)) {
+    for (const entry of fs.readdirSync(OUTPUT_BASE)) {
+      if (/^\d{4}$/.test(entry) && !budgetData.metadata.years.includes(parseInt(entry))) {
+        fs.rmSync(path.join(OUTPUT_BASE, entry), { recursive: true });
+        console.log(`  - removed stale public/data/${entry}`);
+      }
     }
   }
 
-  // 5. Meta file
-  const meta = {
-    years: [2025, 2026],
-    defaultYear: 2025,
-    source: budgetData.metadata.source,
+  const yearInfo = {};
+
+  for (const source of budgetData.sources) {
+    for (const year of source.years) {
+      console.log(`\n${source.label}: generating ${year}...`);
+      const yearDir = path.join(OUTPUT_BASE, String(year));
+      fs.rmSync(yearDir, { recursive: true, force: true });
+
+      writeJSON(path.join(yearDir, 'summary.json'), createSummaryStats(source, year));
+      writeJSON(path.join(yearDir, 'treemap.json'), createTreemapHierarchy(source, year));
+      writeJSON(path.join(yearDir, 'list.json'), createFlatList(source, year));
+
+      const blocksDetail = createBlocksDetail(source, year);
+      for (const [blockId, blockData] of Object.entries(blocksDetail)) {
+        const slug = blockData.name.toLowerCase().replace(/ /g, '-').replace(/&/g, 'und');
+        writeJSON(path.join(yearDir, 'blocks', `${blockId}-${slug}.json`), blockData);
+      }
+
+      yearInfo[year] = {
+        status: source.status,
+        label: source.label,
+        stand: source.stand,
+        sourceId: source.id,
+        sourceFile: source.file,
+        sourceUrl: source.url,
+        portalUrl: source.portalUrl,
+        total: source.totals[year],
+        totalMrd: source.totalsMrd[year],
+        itemCount: source.itemCount,
+      };
+    }
+  }
+
+  console.log('\nMeta...');
+  writeJSON(path.join(OUTPUT_BASE, 'meta.json'), {
+    city: budgetData.metadata.city,
+    dataType: budgetData.metadata.dataType,
+    years: budgetData.metadata.years,
+    defaultYear: budgetData.metadata.defaultYear,
     generated: budgetData.metadata.generated,
-    dataType: 'Ergebnishaushalt',
-    city: 'Leipzig',
-    totalItems: budgetData.metadata.totalItems
-  };
-  writeJSON(path.join(outputBase, 'meta.json'), meta);
+    yearInfo,
+  });
 
   console.log('\n' + '='.repeat(80));
   console.log('✓ STATIC JSON GENERATION COMPLETE');
   console.log('='.repeat(80));
   console.log('\nNext steps:');
   console.log('  1. Review generated files in public/data/');
-  console.log('  2. Test: npm run dev');
-  console.log('  3. No .env needed - it just works!\n');
+  console.log('  2. Test: npm run dev\n');
 }
 
 if (require.main === module) {
   main();
 }
 
-module.exports = { createTreemapHierarchy, createSummaryStats, createFlatList };
+module.exports = { createTreemapHierarchy, createSummaryStats, createFlatList, createBlocksDetail };

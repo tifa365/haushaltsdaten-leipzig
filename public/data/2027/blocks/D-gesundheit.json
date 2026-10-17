@@ -1,0 +1,2944 @@
+{
+  "id": "D",
+  "name": "Gesundheit",
+  "color": "#A78B6A",
+  "value": 32411758.37000001,
+  "valueMio": 32.4,
+  "itemCount": 326,
+  "products": [
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 74350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 92950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 68300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 11850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 108000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 10750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 66150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 215850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 631350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 73150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 334900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 135750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 385200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 482850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 665250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 308200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 176050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 123700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 206350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 307250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 219300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 108850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 602250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 87400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 903950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4748400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 188400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 296450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 435000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 87700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 182900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 118400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 96700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 94250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40190000 - Dienstaufwendungen sonst. Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40190000 - Dienstaufwendungen sonst. Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40190000 - Dienstaufwendungen sonst. Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 56300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 56300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 36650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 56300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 36650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9500,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 28950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 14450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 6100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 16750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 20850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 29100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9250,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 25650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 38200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 211950,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 8000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 18300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4150,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 45400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 116350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 15200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 68650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 25900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 78600,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 99050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 132800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 62100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 37850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 26750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 41200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 63000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 41350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22100,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 125650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 17850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 194000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 925200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 39850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 61700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 92750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 15300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 38200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 20900,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 20400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 850,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13700,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40412000 - Beihilfen/ Unterstützungsleistg. TB"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 54550,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 8000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42112000 - Unterhaltung bauliche Außenanlagen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42312200 - Mieten Geräte/ Ausstattungen dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42312200 - Mieten Geräte/ Ausstattungen dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42312200 - Mieten Geräte/ Ausstattungen dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42319110 - KR Aufwendungen BK Mietobjekte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42319110 - KR Aufwendungen BK Mietobjekte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42319110 - KR Aufwendungen BK Mietobjekte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 37350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 20350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 28550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 25400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419190 - KR Aufwendungen für Wäscherei"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1600,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5850,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 17500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 33500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 17350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 36050,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 6450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 16000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2800,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 850,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2200,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 6400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 133500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 6750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42812000 - Aufwend. Erwerb v.Vorräten dezentral"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 650,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42819170 - KR Werkstättenbedarf (Werkz./Kleinmat.)"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 63900,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 157250,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 29450,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 40000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 20000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 15000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 290950,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 353800,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 141300,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44111000 - s. Pers.-u.Versorg.aufw. Besch. zen"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 94700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 157900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 378950,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44292000 - Sonst.Aufw. Inanspruchn. Rechte/Dienste"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 250,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44299130 - KR Rundfunk- und Fernsehgebühren"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 150,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1850,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7250,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1650,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4050,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2350,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 350,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 8000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 429800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44312000 - Sachverständigen/ Gutachteraufwend."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1950,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 8000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 900,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 8600,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 115000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44540000 - Erstattg.lfd.Verwaltungstätigk.Gesetz.SV"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44540000 - Erstattg.lfd.Verwaltungstätigk.Gesetz.SV"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 7700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44540000 - Erstattg.lfd.Verwaltungstätigk.Gesetz.SV"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44540000 - Erstattg.lfd.Verwaltungstätigk.Gesetz.SV"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 6500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44540000 - Erstattg.lfd.Verwaltungstätigk.Gesetz.SV"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 204000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 150000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4102550,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3215300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44550000 - Erstattg.lfd.Verw.Tätigk. verb.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 28000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 42800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 74800,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2500,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1697450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2484700,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 3750,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44570000 - Erstattg. lfd.Verw.Tätigk.priv.Untern."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5871.53,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 5634.68,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1416.27,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1223.42,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1184.27,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1977.54,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1371.47,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 997.01,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1323.26,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2070.28,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2039.45,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1126.19,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 631.32,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 631.32,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 997.01,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1375.82,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 213.37,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2551.12,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 53125.23,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 152.17,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 19468.28,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 605.21,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 970.9,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 1036.22,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 25.41,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 640.75,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 574,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 548.59,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 2845.63,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 624.93,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 466.48,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 50.28,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 109869.97,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 25347.11,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 27394.4,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 26516.99,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 30709.01,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22324.93,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 28564.28,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 36850.79,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22324.93,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22324.93,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 14135.88,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 14135.88,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 22324.93,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 30806.48,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 4777,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 366363.27,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 64342.69,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13550.93,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 21740.03,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 23202.34,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 13355.97,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12283.6,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 12283.6,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4140",
+      "description": "Gesundheitspflege (4140...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 9359.02,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4110",
+      "description": "Krankenhäuser (4110...)",
+      "amt": "53 - Gesundheitsamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 223900,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47291000 - Abschreibungen auf sonst. Finverm"
+    }
+  ]
+}

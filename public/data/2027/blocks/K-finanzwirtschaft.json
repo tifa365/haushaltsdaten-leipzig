@@ -1,0 +1,190 @@
+{
+  "id": "K",
+  "name": "Finanzwirtschaft",
+  "color": "#6A80A0",
+  "value": 298106600,
+  "valueMio": 298.1,
+  "itemCount": 20,
+  "products": [
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 38043500,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43410000 - Gewerbesteuerumlage"
+    },
+    {
+      "productCode": "6110-050",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 50 (6110-0...)",
+      "amt": "50 - Sozialamt",
+      "teilhaushalt": "Dezernat V",
+      "value": 184400000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43723000 - Umlage kommunaler Sozialverband Sachsen"
+    },
+    {
+      "productCode": "6122",
+      "description": "Kassenkredite (6122...)",
+      "amt": "21 - Stadtkasse",
+      "teilhaushalt": "Dezernat II",
+      "value": 26940000,
+      "costType": "15 Zinsen und sonstige Finanzaufwendungen",
+      "accountDescription": "45170100 - Zinsaufw. Kreditinstitute kurzfr. Verb."
+    },
+    {
+      "productCode": "6120",
+      "description": "Sonstige allgemeine Finanzwirtschaft (6120...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 38983100,
+      "costType": "15 Zinsen und sonstige Finanzaufwendungen",
+      "accountDescription": "45171100 - Zinsaufw. Kreditinsitut langfr. Verb."
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 1500000,
+      "costType": "15 Zinsen und sonstige Finanzaufwendungen",
+      "accountDescription": "45920000 - Verzinsung von Steuererstattungen"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 5000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47211010 - Abschreibung FV Grst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 4200000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47211020 - Abschreibung FV Gewst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 320000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47211030 - Abschreibung FV Vgst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 5000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47211040 - Abschreibung FV Hund"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 15000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47211050 - Abschreibung FV Zwst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 65000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212110 - Abschr. Ford. d. Erlass Grst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 800000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212120 - Abschr. Ford.  d. Erlass  Gewst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 15000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212130 - Abschr. Ford. d. Erlass Vgst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 10000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212140 - Abschr. Ford. d. Erlass Hund"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 5000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212150 - Abschr. Ford. d. Erlass Zws"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 200000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212210 - Abschr. Ford. d. unbefr. Nied. Grst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 2200000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212220 - Abschr. Ford. d. unbefr. Nied. Gewst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 300000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212230 - Abschr. Ford. d. unbefr. Nied. Vgst"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 90000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212240 - Abschr. Ford. d. unbefr. Nied. Hund"
+    },
+    {
+      "productCode": "6110-098",
+      "description": "Steuern, allg. Zuw., allg. Unt. Amt 98 (6110-0...)",
+      "amt": "98 - Allg. Finanzwirtschaft",
+      "teilhaushalt": "Dezernat II",
+      "value": 10000,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47212250 - Abschr. Ford. d. unbefr. Nied. Zwst"
+    }
+  ]
+}

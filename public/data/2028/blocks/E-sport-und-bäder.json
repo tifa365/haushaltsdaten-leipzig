@@ -1,0 +1,649 @@
+{
+  "id": "E",
+  "name": "Sport & Bäder",
+  "color": "#9D7A90",
+  "value": 36984606.35,
+  "valueMio": 37,
+  "itemCount": 71,
+  "products": [
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 31050,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 7750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 38800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40111000 - Beamtenbezüge"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 512450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 527350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 4876400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4242",
+      "description": "Bäder (4242...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 8200,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40121000 - Lohn/Gehalt - tariflich Beschäftigte"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 20000,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40190000 - Dienstaufwendungen sonst. Beschäftigte"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 49300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40211000 - Beiträge zu Versorgungskassen - Beamte"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 21450,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 22300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 204300,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4242",
+      "description": "Bäder (4242...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 350,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40221000 - Beiträge Versorgungskassen TB"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 107400,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 110800,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1054750,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4242",
+      "description": "Bäder (4242...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1650,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40321000 - Beitr.gesetzliche SV - tarifl.Besch."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 0,
+      "costType": "11 Personalaufwendungen",
+      "accountDescription": "40712000 - Zuführung Rückstellung Altersteilzeit ta"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 419500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42111000 - Unterhaltung Grundstücke, baul. Anlagen"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 156000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42113000 - Pflege Freiflächen"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 2460500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42114000 - UH Grundstücke/ bauliche Anl. dez."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1121400,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42311200 - Mieten/ Pachten Gebäude/ Grundst. dez."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1721750,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411100 - Energie zentral"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 718300,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42411200 - Bewirtschaftung Grdst./baul.Anlagen dez."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 111000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42414002 - Grundsteuer RE-FX"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1900,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 271350,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 75150,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 63450,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419160 - Unterhaltsreinigung z."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 25000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419200 - KR Reinigungsmaterial"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 38550,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419210 - KR Sonderreinigung"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 10250,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42419290 - KR Bewachung"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 55000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42511200 - Aufwend. Haltung Fahrzeuge dezentral"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 50000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42531000 - Erwerb bewegl. Gegenstände b. 800 €"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 60000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552000 - UH Geräte, Ausstattungen"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 42050,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42552100 - UH IT-Ausstattung"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 25100,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42611200 - Besond. Aufwend .Beschäftigte dezentral"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 6700,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 98500,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42711200 - Bes. Verwaltungs-/ Betriebsaufw. dez."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1000,
+      "costType": "13 Aufwendungen für Sach- und Dienstleistungen",
+      "accountDescription": "42719200 - KR Aufwendungen Öffentlichkeitsarbeit"
+    },
+    {
+      "productCode": "4242",
+      "description": "Bäder (4242...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 7350000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 827050,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43150000 - Zuschüsse verb. U., SonderVM, Beteilig."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 154000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43170000 - Zuschüsse an private Unternehmen"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 3808700,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 480000,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "43180000 - Zuschüsse an übrige Bereiche"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44111000 - s. Pers.-u.Versorg.aufw. Besch. zen"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 26300,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231000 - Mengengerüst Arbeitsplatzausstattung"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 1200,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44231100 - Druck- und Kuvertierleistungen ReZentr."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 2050,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310100 - Porto und Transportkosten"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 10400,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310300 - Telefon, Internet"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 15450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310700 - Bücher, Zeitschr. Drucks. Büromat. dez"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 10050,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44310900 - Reisekosten Beschäftigte"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 50000,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44311400 - Rechts- und Beratungskosten"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 3100,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44319200 - sonst. Geschäftsaufwendungen dez."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 2398450,
+      "costType": "17 sonstige ordentliche Aufwendungen",
+      "accountDescription": "44580000 - Erstatt. lfd.Verw.Tätigk. übrige Bereich"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 4247.24,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4210",
+      "description": "Förderung des Sports (4210...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 991.01,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 872746.39,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 584787.63,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 778664.17,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 366635.15,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 805567.49,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 360682.96,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 125221.06,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 293626.09,
+      "costType": "14 Abschreibungen im ordentlichen Ergebnis",
+      "accountDescription": "47110000 - Abschreib. immaterielles VM und Sachanla"
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 814484.8,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 68855.13,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 541930.17,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 107288.66,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4242",
+      "description": "Bäder (4242...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 994378.4,
+      "costType": "16 Transferaufwendungen und Abschreibungen auf Sonderposten für geleistete Investitionsförderungsmaßnahmen",
+      "accountDescription": "47120000 - Abschreib. Auf Sopo f. Investzuw."
+    },
+    {
+      "productCode": "4241",
+      "description": "Sportstätten und Sporteinrichtungen (4241...)",
+      "amt": "52 - Amt für Sport",
+      "teilhaushalt": "Dezernat III",
+      "value": 800,
+      "costType": "ILV",
+      "accountDescription": "48112062 - Aufw. ILV an Amt 62 - Serviceleistungen"
+    }
+  ]
+}

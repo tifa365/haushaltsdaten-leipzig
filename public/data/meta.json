@@ -1,12 +1,62 @@
 {
+  "city": "Leipzig",
+  "dataType": "Ergebnishaushalt",
   "years": [
     2025,
-    2026
+    2026,
+    2027,
+    2028
   ],
-  "defaultYear": 2025,
-  "source": "/Users/tim/Projekte/haushaltsdaten/daten/leipzig-ergebnishaushalt-2025_2026.xlsx",
-  "generated": "2025-10-27T22:04:32.360Z",
-  "dataType": "Ergebnishaushalt",
-  "city": "Leipzig",
-  "totalItems": 8811
+  "defaultYear": 2027,
+  "generated": "2026-10-17T15:56:14.866Z",
+  "yearInfo": {
+    "2025": {
+      "status": "beschlossen",
+      "label": "Doppelhaushalt 2025/26",
+      "stand": "2025-06-25",
+      "sourceId": "2025_2026",
+      "sourceFile": "ergebnishaushalt-2025_2026.xlsx",
+      "sourceUrl": "https://opendata.leipzig.de/dataset/60b36fac-bb59-437c-ba18-9d4d1e395ccc/resource/aba9fb3b-3dfb-42ba-9144-913f6658bb83/download/ergebnishaushalt-2025_2026.xlsx",
+      "portalUrl": "https://opendata.leipzig.de/dataset/ergebnishaushalt-2025-2026",
+      "total": 2435856417.8,
+      "totalMrd": 2.436,
+      "itemCount": 8811
+    },
+    "2026": {
+      "status": "beschlossen",
+      "label": "Doppelhaushalt 2025/26",
+      "stand": "2025-06-25",
+      "sourceId": "2025_2026",
+      "sourceFile": "ergebnishaushalt-2025_2026.xlsx",
+      "sourceUrl": "https://opendata.leipzig.de/dataset/60b36fac-bb59-437c-ba18-9d4d1e395ccc/resource/aba9fb3b-3dfb-42ba-9144-913f6658bb83/download/ergebnishaushalt-2025_2026.xlsx",
+      "portalUrl": "https://opendata.leipzig.de/dataset/ergebnishaushalt-2025-2026",
+      "total": 2500245227.2099934,
+      "totalMrd": 2.5,
+      "itemCount": 8811
+    },
+    "2027": {
+      "status": "entwurf",
+      "label": "Entwurf Doppelhaushalt 2027/28",
+      "stand": "2026-09-02",
+      "sourceId": "2027_2028",
+      "sourceFile": "ergebnishaushalt_27_28_final.xlsx",
+      "sourceUrl": "https://opendata.leipzig.de/dataset/e48db0b9-a78f-4684-897d-390ac568773e/resource/87b13915-8a50-4cbd-8af6-921aeea54baf/download/ergebnishaushalt_27_28_final.xlsx",
+      "portalUrl": "https://opendata.leipzig.de/de/dataset/doppelhaushalt-2027-2028-unterlagen-und-datensatze-auf-einen-blick",
+      "total": 2629465397.280006,
+      "totalMrd": 2.629,
+      "itemCount": 8602
+    },
+    "2028": {
+      "status": "entwurf",
+      "label": "Entwurf Doppelhaushalt 2027/28",
+      "stand": "2026-09-02",
+      "sourceId": "2027_2028",
+      "sourceFile": "ergebnishaushalt_27_28_final.xlsx",
+      "sourceUrl": "https://opendata.leipzig.de/dataset/e48db0b9-a78f-4684-897d-390ac568773e/resource/87b13915-8a50-4cbd-8af6-921aeea54baf/download/ergebnishaushalt_27_28_final.xlsx",
+      "portalUrl": "https://opendata.leipzig.de/de/dataset/doppelhaushalt-2027-2028-unterlagen-und-datensatze-auf-einen-blick",
+      "total": 2671907652.429999,
+      "totalMrd": 2.672,
+      "itemCount": 8602
+    }
+  }
 }
