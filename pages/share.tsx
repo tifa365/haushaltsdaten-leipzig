@@ -25,6 +25,11 @@ export const SharePage: FC = () => {
       ? parsedQuery.year
       : DEFAULT_YEAR
   const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
+  const queriedNode =
+    parsedQuery.node ||
+    (parsedQuery.district && parsedQuery.district !== 'all'
+      ? parsedQuery.district
+      : null)
 
   const {
     treemap: hierarchyData,
@@ -47,7 +52,7 @@ export const SharePage: FC = () => {
             width={width}
             height={height}
             view={queriedView}
-            node={parsedQuery.node}
+            node={queriedNode}
           />
         )}
       </div>

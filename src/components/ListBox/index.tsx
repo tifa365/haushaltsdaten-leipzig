@@ -1,4 +1,4 @@
-import { useState, Fragment, FC, ReactNode } from 'react'
+import { Fragment, FC, ReactNode } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { Check, ChevronDown } from '@components/Icons'
 import classNames from 'classnames'
@@ -21,16 +21,16 @@ export const ListBox: FC<ListBoxPropType> = ({
   onChange = () => undefined,
   additionalClasses = '',
 }) => {
-  const [selectedOption, setSelectedOption] =
-    useState<ListBoxOptionType>(selected)
+  // Controlled by the parent: the selection follows the URL, which also
+  // changes when the user zooms in the chart
+  // (matched by id, so the parent may pass a fresh object each render)
+  const selectedOption =
+    options.find((option) => option.id === selected.id) || selected
 
   return (
     <Listbox
       value={selectedOption}
-      onChange={(newOption) => {
-        setSelectedOption(newOption)
-        onChange(newOption.id)
-      }}
+      onChange={(newOption) => onChange(newOption.id)}
     >
       <div className={classNames('relative sm:mt-1', additionalClasses)}>
         <Listbox.Button

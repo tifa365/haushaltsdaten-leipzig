@@ -325,10 +325,13 @@ export const TreeMap: FC<TreeMapType> = ({
     y.domain([currentRoot.y0, currentRoot.y1])
     let group = svg.append('g').call(render, currentRoot)
     fitSvg(currentRoot)
-    if (currentRoot !== rootNode) {
+    // Report the opened level if it differs from the requested one (invalid
+    // or partly valid path, e.g. after a year change) or is not the root
+    if (currentRoot !== rootNode || (nodeRef.current || '') !== '') {
       onChangeLevelRef.current({
         topicDepth: currentRoot.depth as TopicDepth,
-        topicLabel: currentRoot.data.name,
+        topicLabel:
+          currentRoot === rootNode ? undefined : currentRoot.data.name,
         nodePath: nodePath(currentRoot),
       })
     }
@@ -337,12 +340,19 @@ export const TreeMap: FC<TreeMapType> = ({
     goToRef.current = (path: string | null) => {
       const target = findNode(rootNode, path)
       if (target === currentRoot) return
-      svg.interrupt().selectAll('g').interrupt().remove()
-      currentRoot = target
-      x.domain([target.x0, target.x1])
-      y.domain([target.y0, target.y1])
-      group = svg.append('g').call(render, target)
-      fitSvg(target)
+      if (target.parent === currentRoot) {
+        // One level down (e.g. a policy area picked in the dropdown)
+        zoomin(target)
+      } else if (currentRoot.parent === target) {
+        zoomout(currentRoot)
+      } else {
+        svg.interrupt().selectAll('g').interrupt().remove()
+        currentRoot = target
+        x.domain([target.x0, target.x1])
+        y.domain([target.y0, target.y1])
+        group = svg.append('g').call(render, target)
+        fitSvg(target)
+      }
       onChangeLevelRef.current({
         topicDepth: target.depth as TopicDepth,
         topicLabel: target === rootNode ? undefined : target.data.name,

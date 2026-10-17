@@ -43,11 +43,17 @@ const useChartHeight = (): number => {
 }
 
 /**
- * Runs React updates triggered from inside a d3 click handler once the zoom
- * animation has finished, in one batch. Outside React's own events each
- * setState renders synchronously, and re-rendering the long list (100+ rows)
- * takes long enough to make the animation stutter or start late.
+ * React updates triggered from inside a d3 click handler render
+ * synchronously (outside React's own events) and would delay the start of
+ * the zoom animation. The cheap URL update runs after the next frame; the
+ * expensive list re-render (100+ rows) waits until the animation is over.
  */
+const afterNextFrame = (fn: () => void): void => {
+  window.requestAnimationFrame(() =>
+    window.setTimeout(() => unstable_batchedUpdates(fn), 0)
+  )
+}
+
 const afterZoomAnimation = (fn: () => void): void => {
   const reducedMotion = window.matchMedia(
     '(prefers-reduced-motion: reduce)'
@@ -96,7 +102,11 @@ export const Visualization: FC = () => {
       ? parsedQuery.year
       : DEFAULT_YEAR
   const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
-  const queriedNode = parsedQuery.node || null
+  // The policy area is the first level of the zoom path; a plain
+  // ?district=B (older links) opens that area too
+  const queriedNode =
+    parsedQuery.node ||
+    (queriedPolicyArea !== ALL_POLICY_AREAS ? queriedPolicyArea : null)
 
   const {
     treemap: hierarchyData,
@@ -169,17 +179,18 @@ export const Visualization: FC = () => {
               <TreeMapControls
                 district={queriedPolicyArea}
                 onChange={(newQuery) => {
-                  const filtersChanged =
-                    String(newQuery.year ?? DEFAULT_YEAR) !==
-                      String(queriedYear) ||
-                    (newQuery.district ?? ALL_POLICY_AREAS) !==
-                      queriedPolicyArea
-                  // A new year or policy area starts at the first level again;
-                  // switching the view keeps the opened level.
-                  if (filtersChanged) {
-                    setSelectedNode(null)
-                    delete newQuery.node
+                  const district = newQuery.district ?? ALL_POLICY_AREAS
+                  if (district !== queriedPolicyArea) {
+                    // The dropdown zooms the chart into that policy area
+                    // (the treemap animates when the node in the URL changes)
+                    if (district === ALL_POLICY_AREAS) {
+                      delete newQuery.node
+                      delete newQuery.district
+                    } else {
+                      newQuery.node = district
+                    }
                   }
+                  // Year and view changes keep the opened level
                   void push({ pathname, query: newQuery }, undefined, {
                     shallow: true,
                   })
@@ -226,24 +237,34 @@ export const Visualization: FC = () => {
                 height={height}
                 view={queriedView}
                 node={queriedNode}
-                onChangeLevel={(level) =>
-                  afterZoomAnimation(() => {
-                    const label = level.topicLabel || null
-                    // Zooming back out to the root resets the list filter
-                    setSelectedNode(
-                      label && label !== hierarchyData.name ? label : null
+                onChangeLevel={(level) => {
+                  const label = level.topicLabel || null
+                  const nodePath = level.nodePath || ''
+                  const district = nodePath.split('/')[0] || ''
+                  // Keep the opened level (and its policy area, shown in the
+                  // dropdown) in the URL so the view can be shared
+                  afterNextFrame(() => {
+                    if (
+                      nodePath === (queriedNode || '') &&
+                      (district || ALL_POLICY_AREAS) === queriedPolicyArea
                     )
-                    // Keep the opened level in the URL so the view can be shared
-                    const nodePath = level.nodePath || ''
-                    if (nodePath === (queriedNode || '')) return
+                      return
                     const nextQuery = { ...query }
                     if (nodePath) nextQuery.node = nodePath
                     else delete nextQuery.node
+                    if (district) nextQuery.district = district
+                    else delete nextQuery.district
                     void replace({ pathname, query: nextQuery }, undefined, {
                       shallow: true,
                     })
                   })
-                }
+                  // Zooming back out to the root resets the list filter
+                  afterZoomAnimation(() =>
+                    setSelectedNode(
+                      label && label !== hierarchyData.name ? label : null
+                    )
+                  )
+                }}
               />
             )}
           </div>

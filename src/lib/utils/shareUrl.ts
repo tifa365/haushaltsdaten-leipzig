@@ -20,7 +20,9 @@ export const buildShareQuery = ({
 }: ShareState): string => {
   const params = new URLSearchParams()
   if (year !== DEFAULT_YEAR) params.set('year', String(year))
-  if (district && district !== 'all') params.set('district', district)
+  // The first segment of the node path is the policy area, so the district
+  // is only needed when there is no path
+  if (district && district !== 'all' && !node) params.set('district', district)
   if (view === 'bars') params.set('view', view)
   if (node) params.set('node', node)
   const query = params.toString()
