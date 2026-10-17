@@ -19,7 +19,8 @@ Enthaltene Haushaltsjahre:
 
 - Eine [Treemap](https://de.wikipedia.org/wiki/Treemap), in die man per Klick hineinzoomt: Politikbereich → Produkt → Kostenarten.
 - Darunter eine Liste der größten Ausgaben der aktuellen Auswahl (Politikbereich, Jahr, gezoomter Knoten).
-- Die Treemap kann per _Einbetten_ als `<iframe>` in andere Seiten eingebunden werden (`/share/?year=2027`).
+- Jede Ansicht hat eine eigene URL (_Teilen_-Symbol): `year`, `district` (Politikbereich A–K), `view` (`treemap` oder `bars`) und `node` (geöffnete Ebene, z. B. `node=C/3112`). Standardwerte werden weggelassen, Beispiel: `/visualisierung/?view=bars&node=C`.
+- Die Grafik kann per _Einbetten_-Symbol als `<iframe>` in andere Seiten eingebunden werden (`/share/` mit denselben Parametern).
 - Startseite und Info-Seite (FAQ) liefern Kontext zum Haushalt.
 
 ## Die Daten

@@ -47,6 +47,7 @@ export const SharePage: FC = () => {
             width={width}
             height={height}
             view={queriedView}
+            node={parsedQuery.node}
           />
         )}
       </div>

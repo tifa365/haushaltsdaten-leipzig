@@ -8,7 +8,7 @@ import { TreeMapControls } from '@components/TreeMapControls'
 import classNames from 'classnames'
 import { policyAreas, policyAreaColors, PolicyAreaKey } from '@data/policyAreas'
 import { useRouter } from 'next/router'
-import { EmbeddPopup } from '@components/EmbeddPopup'
+import { ShareLinks } from '@components/ShareLinks'
 import {
   DEFAULT_YEAR,
   isValidYear,
@@ -47,7 +47,7 @@ const filterBySelectedNode = (
 
 export const Visualization: FC = () => {
   const { observe, width, height } = useDimensions()
-  const { push, pathname, query, isReady } = useRouter()
+  const { push, replace, pathname, query, isReady } = useRouter()
 
   const parsedQuery = mapRawQueryToState(query)
   const queriedPolicyArea: PolicyAreaKey | 'all' =
@@ -59,6 +59,7 @@ export const Visualization: FC = () => {
       ? parsedQuery.year
       : DEFAULT_YEAR
   const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
+  const queriedNode = parsedQuery.node || null
 
   const {
     treemap: hierarchyData,
@@ -90,6 +91,17 @@ export const Visualization: FC = () => {
 
   const yearInfo = YEAR_INFO[queriedYear]
 
+  const shareLinks = (
+    <ShareLinks
+      state={{
+        year: queriedYear,
+        district: queriedPolicyArea,
+        view: queriedView,
+        node: queriedNode,
+      }}
+    />
+  )
+
   return (
     <>
       <div className="min-h-screen pb-12">
@@ -113,17 +125,24 @@ export const Visualization: FC = () => {
               <TreeMapControls
                 district={queriedPolicyArea}
                 onChange={(newQuery) => {
-                  // Clear selected node when filters change
-                  setSelectedNode(null)
+                  const filtersChanged =
+                    String(newQuery.year ?? DEFAULT_YEAR) !==
+                      String(queriedYear) ||
+                    (newQuery.district ?? ALL_POLICY_AREAS) !==
+                      queriedPolicyArea
+                  // A new year or policy area starts at the first level again;
+                  // switching the view keeps the opened level.
+                  if (filtersChanged) {
+                    setSelectedNode(null)
+                    delete newQuery.node
+                  }
                   void push({ pathname, query: newQuery }, undefined, {
                     shallow: true,
                   })
                 }}
               />
             </div>
-            <div className="hidden lg:inline-flex">
-              <EmbeddPopup />
-            </div>
+            <div className="hidden lg:inline-flex">{shareLinks}</div>
           </div>
         </div>
         {isDraftYear(queriedYear) && yearInfo && (
@@ -163,18 +182,28 @@ export const Visualization: FC = () => {
                 width={width}
                 height={height}
                 view={queriedView}
-                onChangeLevel={(level: { topicLabel?: string }) => {
+                node={queriedNode}
+                onChangeLevel={(level) => {
                   const label = level.topicLabel || null
                   // Zooming back out to the root resets the list filter
                   setSelectedNode(
                     label && label !== hierarchyData.name ? label : null
                   )
+                  // Keep the opened level in the URL so the view can be shared
+                  const nodePath = level.nodePath || ''
+                  if (nodePath === (queriedNode || '')) return
+                  const nextQuery = { ...query }
+                  if (nodePath) nextQuery.node = nodePath
+                  else delete nextQuery.node
+                  void replace({ pathname, query: nextQuery }, undefined, {
+                    shallow: true,
+                  })
                 }}
               />
             )}
           </div>
           <div className="container mx-auto mt-4 flex justify-end lg:hidden">
-            <EmbeddPopup />
+            {shareLinks}
           </div>
           <div className="container mx-auto">
             <h2 className="mb-6 mt-12 px-4 font-bold text-2xl">

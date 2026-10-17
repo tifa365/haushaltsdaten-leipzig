@@ -8,9 +8,11 @@ interface TreeMapWithDataPropType {
   width: number
   height: number
   view?: TreeMapView
+  node?: string | null
   onChangeLevel?: (level: {
     topicLabel?: string
     topicDepth?: TopicDepth
+    nodePath?: string
   }) => void
 }
 
@@ -19,6 +21,7 @@ export const TreeMapWithData: FC<TreeMapWithDataPropType> = ({
   width,
   height,
   view = 'treemap',
+  node = null,
   onChangeLevel = () => undefined,
 }) => {
   return (
@@ -27,6 +30,7 @@ export const TreeMapWithData: FC<TreeMapWithDataPropType> = ({
       height={height}
       hierarchy={hierarchy}
       view={view}
+      node={node}
       onChangeLevel={(level) => onChangeLevel(level)}
     />
   )

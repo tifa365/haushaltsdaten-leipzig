@@ -13,9 +13,13 @@ export interface TreeMapType {
   hierarchy: TreemapHierarchyType
   /** 'treemap' (default) or 'bars'; switching morphs every cell into its bar */
   view?: TreeMapView
+  /** Path of node ids to open, e.g. "C/3151"; changes zoom without animation */
+  node?: string | null
   onChangeLevel?: (level: {
     topicLabel?: string
     topicDepth?: TopicDepth
+    /** Path of node ids of the opened level ("" for the root) */
+    nodePath?: string
   }) => void
 }
 
@@ -64,6 +68,29 @@ const pathName = (d: TreeMapNode): string =>
     .reverse()
     .map((a) => a.data.name)
     .join(' → ')
+
+/** Ids from the root down to the node, e.g. "C/3151" ("" for the root) */
+const nodePath = (d: TreeMapNode): string =>
+  d
+    .ancestors()
+    .reverse()
+    .slice(1)
+    .map((a) => a.data.id || '')
+    .join('/')
+
+/** Follows a path of ids; stops at the deepest node that can be opened */
+const findNode = (
+  root: TreeMapNode,
+  path: string | null | undefined
+): TreeMapNode => {
+  let current = root
+  for (const id of (path || '').split('/').filter(Boolean)) {
+    const next = (current.children || []).find((c) => c.data.id === id)
+    if (!next || !hasChildren(next)) break
+    current = next
+  }
+  return current
+}
 
 const truncate = (text: string, max: number): string =>
   text.length > max ? `${text.slice(0, max - 1)}…` : text
@@ -212,13 +239,20 @@ export const TreeMap: FC<TreeMapType> = ({
   height = 800,
   hierarchy,
   view = 'treemap',
+  node = null,
   onChangeLevel = () => undefined,
 }) => {
   const x = d3.scaleLinear().rangeRound([0, width])
   const y = d3.scaleLinear().rangeRound([0, height])
   const viewRef = useRef<TreeMapView>(view)
   const setViewRef = useRef<((next: TreeMapView) => void) | null>(null)
+  const goToRef = useRef<((path: string | null) => void) | null>(null)
+  const nodeRef = useRef<string | null>(node)
+  // Always call the latest handler (the effect below runs only on data changes)
+  const onChangeLevelRef = useRef(onChangeLevel)
+  onChangeLevelRef.current = onChangeLevel
   viewRef.current = view
+  nodeRef.current = node
 
   useEffect(() => {
     const svg = d3.select('svg#expenditures-treemap')
@@ -276,9 +310,37 @@ export const TreeMap: FC<TreeMapType> = ({
         )
     }
 
-    let currentRoot = treemap(hierarchy)
+    const rootNode = treemap(hierarchy)
+    // Open the level from the URL directly (no animation)
+    let currentRoot = findNode(rootNode, nodeRef.current)
+    x.domain([currentRoot.x0, currentRoot.x1])
+    y.domain([currentRoot.y0, currentRoot.y1])
     let group = svg.append('g').call(render, currentRoot)
     fitSvg(currentRoot)
+    if (currentRoot !== rootNode) {
+      onChangeLevelRef.current({
+        topicDepth: currentRoot.depth as TopicDepth,
+        topicLabel: currentRoot.data.name,
+        nodePath: nodePath(currentRoot),
+      })
+    }
+
+    // Jump to a level given by its id path (URL changes, e.g. history navigation)
+    goToRef.current = (path: string | null) => {
+      const target = findNode(rootNode, path)
+      if (target === currentRoot) return
+      svg.interrupt().selectAll('g').interrupt().remove()
+      currentRoot = target
+      x.domain([target.x0, target.x1])
+      y.domain([target.y0, target.y1])
+      group = svg.append('g').call(render, target)
+      fitSvg(target)
+      onChangeLevelRef.current({
+        topicDepth: target.depth as TopicDepth,
+        topicLabel: target === rootNode ? undefined : target.data.name,
+        nodePath: nodePath(target),
+      })
+    }
 
     function render(group: NodeGroup, root: TreeMapNode): void {
       const node = group
@@ -294,12 +356,12 @@ export const TreeMap: FC<TreeMapType> = ({
         .on('click', (_, d) => {
           d === root ? zoomout(root) : zoomin(d)
 
-          const depth = d === root ? d.depth - 1 : d.depth
-          const label = d === root ? d.parent?.data.name : d.data.name
+          const target = d === root ? (d.parent as TreeMapNode) : d
 
-          onChangeLevel({
-            topicDepth: depth as TopicDepth,
-            topicLabel: label,
+          onChangeLevelRef.current({
+            topicDepth: target.depth as TopicDepth,
+            topicLabel: target.data.name,
+            nodePath: nodePath(target),
           })
         })
 
@@ -458,6 +520,7 @@ export const TreeMap: FC<TreeMapType> = ({
 
     return function cleanup() {
       setViewRef.current = null
+      goToRef.current = null
       d3.select('#expenditures-treemap').selectAll('g').remove()
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -467,6 +530,10 @@ export const TreeMap: FC<TreeMapType> = ({
   useEffect(() => {
     setViewRef.current?.(view)
   }, [view])
+
+  useEffect(() => {
+    goToRef.current?.(node)
+  }, [node])
 
   return (
     <svg

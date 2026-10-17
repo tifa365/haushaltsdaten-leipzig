@@ -20,6 +20,8 @@ export interface ParsedPageQueryType {
   year: number
   modus: string
   view: 'treemap' | 'bars'
+  /** Path of node ids the treemap is zoomed into, e.g. "C/3151" */
+  node: string | null
 }
 
 const isNumber = (val: unknown): boolean =>
@@ -42,6 +44,10 @@ const parseView = (
   val: string | string[] | undefined
 ): 'treemap' | 'bars' | null =>
   val === 'bars' ? 'bars' : val === 'treemap' ? 'treemap' : null
+
+/** Zoom path: policy block letter, optionally followed by a product code */
+const parseNode = (val: string | string[] | undefined): string | null =>
+  typeof val === 'string' && /^[A-K](\/\d+)?$/.test(val) ? val : null
 
 const parseString = (val: string | string[] | undefined): string | null =>
   (val && typeof val === 'string' && val.length > 0 && val) || null
@@ -93,5 +99,6 @@ export const mapRawQueryToState = (
       parseYear(parseSingleNumber(rawQuery.year) as number),
     modus: parseString(rawQuery.modus),
     view: parseView(rawQuery.view),
+    node: parseNode(rawQuery.node),
   })
 }
