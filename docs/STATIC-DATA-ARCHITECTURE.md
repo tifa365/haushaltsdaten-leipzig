@@ -2,329 +2,62 @@
 
 ## Overview
 
-This project uses **static JSON files** instead of a database. This architectural decision provides:
+This project uses **static JSON files** instead of a database:
 
-- ✅ **Zero configuration** - No `.env` files, no database credentials
-- ✅ **Perfect reproducibility** - Git commit = exact dataset
-- ✅ **Maximum performance** - CDN-served, edge-cached
-- ✅ **Zero cost** - No database hosting fees
-- ✅ **Open source friendly** - Anyone can `npm install && npm run dev`
-- ✅ **Audit trail** - All data changes tracked in Git
+- Zero configuration: no `.env`, no credentials
+- Reproducibility: a Git commit is an exact dataset
+- Performance: CDN-served, cacheable files
+- Zero hosting cost: works on GitHub Pages, Netlify, any static host
+- Audit trail: every data change is a reviewable diff
 
 ## Data Flow
 
 ```
-Leipzig Excel File (daten/*.xlsx)
-         ↓
-  [1. Process] npm run data:process
-         ↓
-  src/data/leipzig-budget-data.json (intermediate)
-         ↓
-  [2. Generate] npm run data:generate
-         ↓
-  public/data/{year}/*.json (static files)
-         ↓
-  [3. Serve] Next.js serves from /public
-         ↓
-  [4. Load] Frontend fetches JSON via fetch()
+scripts/data-sources.js            one entry per Doppelhaushalt (URL, sheet, column accessors, years, status)
+        │
+        ▼  npm run data:download   (scripts/download-data.js, skips existing files, --force to refresh)
+daten/*.xlsx                       raw Excel files from opendata.leipzig.de (gitignored)
+        │
+        ▼  npm run data:process    (scripts/process-leipzig-data.js)
+src/data/leipzig-budget-data.json  intermediate: { metadata, sources: [{ years, totals, aggregated, items }] }
+        │
+        ▼  npm run data:generate   (scripts/generate-static-json.js)
+public/data/{year}/*.json          served as-is; fetched by the browser via src/lib/hooks/useBudgetData
+public/data/meta.json
 ```
+
+`npm run data:build` runs all three steps.
 
 ## File Structure
 
 ```
 public/data/
-├── meta.json                       # Available years, metadata
+├── meta.json                 years, defaultYear, yearInfo[year] = { status, label, stand, sourceUrl, total, ... }
 ├── 2025/
-│   ├── summary.json                # Top-level stats (~5KB)
-│   ├── treemap.json                # Hierarchical data for D3 (~500KB-2MB)
-│   ├── list.json                   # Flat list for detail view (~300KB-1MB)
-│   └── blocks/                     # Individual policy blocks (lazy-loaded)
-│       ├── A-verwaltung-sicherheit.json
-│       ├── B-bildung-kultur.json
-│       ├── C-soziales-jugend.json
-│       └── ...
-└── 2026/
-    └── ... (same structure)
+│   ├── summary.json          totals and per-block shares (~3 KB)
+│   ├── treemap.json          hierarchy root → block (A-K) → product → cost types (~1.5 MB)
+│   ├── list.json             flat list of all product/cost-type rows, sorted by amount (~2.5 MB)
+│   └── blocks/               one file per policy block with its products
+├── 2026/ … 2027/ … 2028/     same structure
 ```
 
-## Commands
+Only the **leaves** of `treemap.json` are summed by the D3 treemap; blocks and products also carry a precomputed `value` for display, which the component must not add again (see `src/components/TreeMap/index.tsx`).
 
-### Process Leipzig Excel → JSON
-```bash
-npm run data:process
-```
+## Processing rules (scripts/process-leipzig-data.js)
 
-**Input:** `daten/leipzig-ergebnishaushalt-2025_2026.xlsx`
-**Output:** `src/data/leipzig-budget-data.json`
+1. Keep rows whose `Zuordnung_Kostenart.Ebene` contains `2 ordentliche Aufwendungen` (expenses only). Rows with an empty Ebene (cost types missing in the mapping sheet of the Excel file) are counted and reported, then skipped.
+2. Keep rows with `Objektart = PR` (product level) to avoid double counting object-level rows.
+3. Map the first two digits of `Zielstruktur.PC` to a policy block A–K (`MAPPING`). Unmapped prefixes are reported.
+4. Read one amount per year from the source's `plan(row, year)` accessor.
+5. Aggregate per block and validate that block sums equal the overall sum for every year; the script exits non-zero on mismatch.
 
-**What it does:**
-- Reads Excel "Grunddaten" sheet
-- Filters for `"2 ordentliche Aufwendungen"` (expenses only)
-- Filters for `Objektart = "PR"` (product-level only, prevents double-counting)
-- Maps product codes to policy blocks
-- Validates totals
-- Outputs intermediate JSON
+## Adding a new Doppelhaushalt
 
-### Generate Static Files
-```bash
-npm run data:generate
-```
+1. Add an entry to `scripts/data-sources.js`. Inspect the Excel file first: sheet name and column headers differ between publications (2025/26: `Grunddaten`, `PCBeschreibung`, `Amt`, `KostenartBeschreibung`; 2027/28: `Rohdaten`, `Zielstruktur.PC Bezeichnung`, `Zielstruktur.Amt` + `… Bezeichnung`, `Kostenart` + `Kostenart Beschreibung`). Compose values so that the output format stays `"<code> - <name>"`.
+2. Extend `VALID_YEARS`, `DRAFT_YEARS`, `YEAR_INFO` (and `DEFAULT_YEAR` if desired) in `src/lib/utils/yearValidator/index.ts`.
+3. Run `npm run data:build`, check the printed totals against the official figures, run `npm run dev`.
+4. Update the texts on the start page and FAQ, commit `public/data/` and `src/data/leipzig-budget-data.json`.
 
-**Input:** `src/data/leipzig-budget-data.json`
-**Output:** `public/data/{year}/*.json`
+## Hosting below a sub-path
 
-**What it does:**
-- Creates treemap hierarchy
-- Creates summary stats
-- Creates flat lists
-- Splits by year (2025, 2026)
-- Generates per-block detail files
-
-### Full Pipeline
-```bash
-npm run data:build
-```
-
-Runs both `data:process` and `data:generate` in sequence.
-
-## Development Workflow
-
-### Initial Setup (One Time)
-```bash
-# 1. Clone repo
-git clone <repo-url>
-cd haushaltsdaten
-
-# 2. Install dependencies
-npm install
-
-# 3. Place Leipzig Excel file
-cp ~/Downloads/leipzig-ergebnishaushalt-2025_2026.xlsx daten/
-
-# 4. Process data
-npm run data:build
-
-# 5. Start dev server
-npm run dev
-```
-
-**No `.env` file needed!** Just works.
-
-### Updating Data (When New Budget Released)
-```bash
-# 1. Get new Excel file
-cp ~/Downloads/leipzig-ergebnishaushalt-2027_2028.xlsx daten/
-
-# 2. Rebuild data
-npm run data:build
-
-# 3. Review changes
-git diff public/data/
-
-# 4. Commit
-git add public/data/
-git commit -m "data: update to 2027/2028 budget"
-git push
-
-# 5. Deploy (Vercel picks up automatically)
-```
-
-## Data Loading in Frontend
-
-### Server-Side Data Loading (getServerSideProps)
-```typescript
-import fs from 'fs'
-import path from 'path'
-
-export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-  const dataDir = path.join(process.cwd(), 'public', 'data')
-  const year = 2025
-
-  // Load treemap data
-  const treemapPath = path.join(dataDir, `${year}`, 'treemap.json')
-  const treemapData = JSON.parse(fs.readFileSync(treemapPath, 'utf-8'))
-
-  // Load list data
-  const listPath = path.join(dataDir, `${year}`, 'list.json')
-  const listData = JSON.parse(fs.readFileSync(listPath, 'utf-8'))
-
-  return {
-    props: {
-      hierarchyData: treemapData,
-      initialListData: listData,
-    },
-  }
-}
-```
-
-### Client-Side Data Loading (fetch)
-```typescript
-// Load data dynamically in browser
-const response = await fetch('/data/2025/list.json')
-const listData = await response.json()
-
-// Filter by policy area
-const filtered = listData.filter(item => item.policyArea === 'C')
-```
-
-## Why Static Over Database?
-
-### For This Project Specifically:
-
-| Requirement | Static JSON | Database (PostgreSQL) |
-|-------------|-------------|----------------------|
-| Data updates | 2x per year | 2x per year |
-| Query complexity | Simple hierarchies | Simple hierarchies |
-| User personalization | None needed | None needed |
-| Real-time updates | Not needed | Not needed |
-| **Result** | **Perfect fit** | **Overkill** |
-
-### Advantages
-
-**1. Developer Experience**
-- Clone → Install → Run (3 commands, no secrets)
-- No "ask for credentials" friction
-- Works offline
-- Fast local dev
-
-**2. Deployment**
-- Push to Git → Auto-deploy (Vercel/Netlify)
-- No database provisioning
-- No connection pool management
-- No query optimization needed
-
-**3. Performance**
-- CDN-cached globally
-- < 50ms latency
-- Unlimited scale
-- No cold starts
-
-**4. Cost**
-- Storage: $0 (in Git)
-- Serving: $0 (CDN)
-- Database: $0 (none needed)
-- **Total: $0/month**
-
-**5. Auditability**
-- Every data version in Git history
-- Reproducible visualizations
-- Clear data provenance
-- Compliance-friendly
-
-### When You WOULD Need a Database
-
-- ✅ Data updates daily/hourly
-- ✅ Complex JOIN queries across many tables
-- ✅ User-specific data (auth, permissions)
-- ✅ Write operations (forms, comments)
-- ✅ Aggregations too expensive client-side
-- ✅ Dataset > 100MB per file
-
-**None of these apply to Leipzig budget visualization.**
-
-## Migration from Database (Completed)
-
-### What Was Removed
-- ✅ All database query dependencies
-- ✅ Database client initialization code
-- ✅ Remote data fetching functions
-- ✅ Database connection env vars from `.env.example`
-
-### What Was Added
-- ✅ `scripts/process-leipzig-data.js` (Node.js Excel processing)
-- ✅ `scripts/generate-static-json.js` (Static file generation)
-- ✅ Static JSON data loading utilities
-- ✅ `npm run data:*` scripts in package.json
-- ✅ `xlsx` package for Excel reading
-
-## File Sizes
-
-Typical sizes for Leipzig (~2.8 Mrd € budget, ~700 products):
-
-| File | Size | Load When |
-|------|------|-----------|
-| `meta.json` | 1 KB | Homepage |
-| `summary.json` | 5 KB | Homepage |
-| `treemap.json` | 500KB-2MB | Visualization page |
-| `list.json` | 300KB-1MB | Visualization page |
-| `blocks/*.json` | 10-50 KB each | On drill-down (lazy) |
-
-**Total initial load:** ~1-3 MB (acceptable for data viz)
-
-**Optimization tips:**
-- Serve gzipped (automatic on Vercel)
-- Use `getStaticProps` for pre-loading
-- Lazy-load block details
-- Consider splitting large files if needed
-
-## Deployment Checklist
-
-### Before Each Deploy
-- [ ] Run `npm run data:build`
-- [ ] Verify JSON files generated in `public/data/`
-- [ ] Test locally: `npm run dev`
-- [ ] Check browser console for errors
-- [ ] Verify treemap renders
-- [ ] Check file sizes (< 5MB total ideal)
-
-### Deploy
-```bash
-git add public/data/
-git commit -m "data: update Leipzig budget 2025/2026"
-git push origin main
-```
-
-Vercel automatically:
-1. Detects push
-2. Runs `npm run build`
-3. Serves `public/data/` from CDN
-4. Done ✅
-
-## Troubleshooting
-
-### "No data found"
-**Cause:** JSON files missing
-**Fix:** Run `npm run data:build`
-
-### "Failed to load treemap data"
-**Cause:** File path wrong or not deployed
-**Fix:** Check `public/data/2025/treemap.json` exists
-
-### "Totals don't match"
-**Cause:** Excel file structure changed
-**Fix:** Review `process-leipzig-data.js` mapping
-
-### Numbers seem wrong
-**Cause:** Double-counting (OR vs PR rows)
-**Fix:** Verify script filters `Objektart === 'PR'`
-
-## Future Enhancements
-
-### If Dataset Grows Large (> 10MB)
-1. **Option:** Split by policy block
-2. **Option:** Add API route for filtering
-3. **Option:** Use IndexedDB for client-side cache
-
-### If Need Dynamic Filters
-1. **Option:** Pre-generate all filter combinations
-2. **Option:** Add lightweight `/api/filter` endpoint
-3. **Keep:** JSON as backing store (don't add database)
-
-### If Multiple Cities
-1. **Structure:** `public/data/leipzig/`, `public/data/dresden/`
-2. **Route:** `/leipzig/visualisierung`, `/dresden/visualisierung`
-3. **Stay static:** One JSON set per city
-
-## Summary
-
-**Static JSON is the right architecture for Leipzig budget visualization because:**
-
-1. Data updates rarely (2x/year)
-2. No complex queries needed
-3. No user accounts/auth
-4. Perfect developer experience
-5. Zero infrastructure cost
-6. Maximum performance
-7. Full audit trail
-
-**Don't add a database unless requirements fundamentally change.**
+Routes handled by `next/link` get the `basePath` automatically. Everything else (`fetch`, `<img>`, `<link>`, `<iframe>`) must use `withBasePath()` / `dataUrl()` from `src/lib/utils/basePath.ts`. Set `NEXT_PUBLIC_BASE_PATH=/<repo>` at build time (the GitHub Pages workflow does this from the repository name).
