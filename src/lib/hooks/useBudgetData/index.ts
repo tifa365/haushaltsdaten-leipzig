@@ -5,7 +5,10 @@ import { BudgetListItem, BudgetTreemap } from '../../../types/budget'
 interface BudgetDataState {
   treemap: BudgetTreemap | null
   list: BudgetListItem[] | null
+  /** true until treemap.json has arrived */
   isLoading: boolean
+  /** true until list.json has arrived (always false without list) */
+  isListLoading: boolean
   error: string | null
 }
 
@@ -13,6 +16,7 @@ const INITIAL_STATE: BudgetDataState = {
   treemap: null,
   list: null,
   isLoading: true,
+  isListLoading: true,
   error: null,
 }
 
@@ -27,6 +31,8 @@ const fetchJSON = async <T>(url: string): Promise<T> => {
 /**
  * Loads treemap.json and list.json for a year from the static data folder.
  * Pass `null` while the router query is not ready yet to defer loading.
+ * The two files load independently so the treemap can render before the
+ * (much larger) list has arrived.
  */
 export const useBudgetData = (
   year: number | null,
@@ -37,31 +43,41 @@ export const useBudgetData = (
   useEffect(() => {
     if (year === null) return
     let cancelled = false
-    setState((prev) => ({ ...prev, isLoading: true, error: null }))
+    setState({
+      treemap: null,
+      list: null,
+      isLoading: true,
+      isListLoading: withList,
+      error: null,
+    })
 
-    const load = async (): Promise<void> => {
-      try {
-        const [treemap, list] = await Promise.all([
-          fetchJSON<BudgetTreemap>(dataUrl(`${year}/treemap.json`)),
-          withList
-            ? fetchJSON<BudgetListItem[]>(dataUrl(`${year}/list.json`))
-            : Promise.resolve(null),
-        ])
-        if (!cancelled)
-          setState({ treemap, list, isLoading: false, error: null })
-      } catch (err) {
-        if (!cancelled) {
-          setState({
-            treemap: null,
-            list: null,
-            isLoading: false,
-            error: err instanceof Error ? err.message : String(err),
-          })
-        }
-      }
+    const fail = (err: unknown): void => {
+      if (cancelled) return
+      setState({
+        treemap: null,
+        list: null,
+        isLoading: false,
+        isListLoading: false,
+        error: err instanceof Error ? err.message : String(err),
+      })
     }
 
-    void load()
+    fetchJSON<BudgetTreemap>(dataUrl(`${year}/treemap.json`))
+      .then((treemap) => {
+        if (!cancelled)
+          setState((prev) => ({ ...prev, treemap, isLoading: false }))
+      })
+      .catch(fail)
+
+    if (withList) {
+      fetchJSON<BudgetListItem[]>(dataUrl(`${year}/list.json`))
+        .then((list) => {
+          if (!cancelled)
+            setState((prev) => ({ ...prev, list, isListLoading: false }))
+        })
+        .catch(fail)
+    }
+
     return () => {
       cancelled = true
     }

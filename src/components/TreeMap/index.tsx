@@ -57,6 +57,8 @@ const BAR_MAX_THICKNESS = 36
 // Approximate glyph width for truncating labels to the label column
 const AVG_CHAR_WIDTH_EM = 0.55
 const VIEW_TRANSITION_MS = 700
+/** Duration of the zoom in/out animation */
+export const ZOOM_TRANSITION_MS = 750
 
 const hasChildren = (d: TreeMapNode): boolean =>
   Boolean(d.children && d.children.length > 0)
@@ -463,7 +465,7 @@ export const TreeMap: FC<TreeMapType> = ({
 
       svg
         .transition()
-        .duration(750)
+        .duration(reducedMotion ? 0 : ZOOM_TRANSITION_MS)
         .call((t) =>
           groupToRemove
             .transition(t)
@@ -499,7 +501,7 @@ export const TreeMap: FC<TreeMapType> = ({
 
       svg
         .transition()
-        .duration(750)
+        .duration(reducedMotion ? 0 : ZOOM_TRANSITION_MS)
         .call((t) =>
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore

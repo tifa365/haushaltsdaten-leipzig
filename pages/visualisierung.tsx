@@ -2,7 +2,9 @@ import { ListItem } from '@components/ListItem'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState } from '@lib/utils/queryUtil'
 import { GetStaticProps } from 'next'
-import { FC, useState, useEffect, useMemo } from 'react'
+import { FC, useState, useMemo } from 'react'
+import { unstable_batchedUpdates } from 'react-dom'
+import { ZOOM_TRANSITION_MS } from '@components/TreeMap'
 import useDimensions from 'react-cool-dimensions'
 import { TreeMapControls } from '@components/TreeMapControls'
 import classNames from 'classnames'
@@ -21,6 +23,22 @@ import { BudgetListItem } from '../src/types/budget'
 
 const ALL_POLICY_AREAS = 'all'
 const MAX_ROWS = 100
+
+/**
+ * Runs React updates triggered from inside a d3 click handler once the zoom
+ * animation has finished, in one batch. Outside React's own events each
+ * setState renders synchronously, and re-rendering the long list (100+ rows)
+ * takes long enough to make the animation stutter or start late.
+ */
+const afterZoomAnimation = (fn: () => void): void => {
+  const reducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches
+  window.setTimeout(
+    () => unstable_batchedUpdates(fn),
+    reducedMotion ? 0 : ZOOM_TRANSITION_MS + 50
+  )
+}
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps: GetStaticProps = async () => ({
@@ -65,11 +83,17 @@ export const Visualization: FC = () => {
     treemap: hierarchyData,
     list: allItems,
     isLoading,
+    isListLoading,
     error,
   } = useBudgetData(isReady ? queriedYear : null)
 
   const [selectedNode, setSelectedNode] = useState<string | null>(null)
-  const [visibleRows, setVisibleRows] = useState<number>(MAX_ROWS)
+  // "Weitere anzeigen" count, tied to the list it was requested for so a new
+  // list starts at MAX_ROWS again without an extra render pass
+  const [rowsFor, setRowsFor] = useState<{
+    list: BudgetListItem[] | null
+    rows: number
+  }>({ list: null, rows: MAX_ROWS })
 
   const listData = useMemo(() => {
     if (!allItems) return []
@@ -80,13 +104,14 @@ export const Visualization: FC = () => {
     return filterBySelectedNode(byArea, selectedNode)
   }, [allItems, queriedPolicyArea, selectedNode])
 
-  useEffect(() => {
-    setVisibleRows(Math.min(MAX_ROWS, listData.length))
-  }, [listData])
+  const visibleRows = Math.min(
+    rowsFor.list === listData ? rowsFor.rows : MAX_ROWS,
+    listData.length
+  )
 
   const loadMoreRows = (): void => {
     const rowsToAdd = 10
-    setVisibleRows(Math.min(visibleRows + rowsToAdd, listData.length))
+    setRowsFor({ list: listData, rows: visibleRows + rowsToAdd })
   }
 
   const yearInfo = YEAR_INFO[queriedYear]
@@ -183,22 +208,24 @@ export const Visualization: FC = () => {
                 height={height}
                 view={queriedView}
                 node={queriedNode}
-                onChangeLevel={(level) => {
-                  const label = level.topicLabel || null
-                  // Zooming back out to the root resets the list filter
-                  setSelectedNode(
-                    label && label !== hierarchyData.name ? label : null
-                  )
-                  // Keep the opened level in the URL so the view can be shared
-                  const nodePath = level.nodePath || ''
-                  if (nodePath === (queriedNode || '')) return
-                  const nextQuery = { ...query }
-                  if (nodePath) nextQuery.node = nodePath
-                  else delete nextQuery.node
-                  void replace({ pathname, query: nextQuery }, undefined, {
-                    shallow: true,
+                onChangeLevel={(level) =>
+                  afterZoomAnimation(() => {
+                    const label = level.topicLabel || null
+                    // Zooming back out to the root resets the list filter
+                    setSelectedNode(
+                      label && label !== hierarchyData.name ? label : null
+                    )
+                    // Keep the opened level in the URL so the view can be shared
+                    const nodePath = level.nodePath || ''
+                    if (nodePath === (queriedNode || '')) return
+                    const nextQuery = { ...query }
+                    if (nodePath) nextQuery.node = nodePath
+                    else delete nextQuery.node
+                    void replace({ pathname, query: nextQuery }, undefined, {
+                      shallow: true,
+                    })
                   })
-                }}
+                }
               />
             )}
           </div>
@@ -211,7 +238,7 @@ export const Visualization: FC = () => {
               {queriedPolicyArea !== ALL_POLICY_AREAS &&
                 ` – ${policyAreas[queriedPolicyArea]}`}
             </h2>
-            {isLoading ? (
+            {isListLoading ? (
               <div className="text-center py-12">Lädt...</div>
             ) : (
               <>
