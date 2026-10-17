@@ -203,17 +203,15 @@ export const Visualization: FC = () => {
         {isDraftYear(queriedYear) && yearInfo && (
           <div className="px-4 mt-4">
             <p
-              // "Sketch" look: dashed frame and a light hatch say "not final"
-              className="container mx-auto flex items-start gap-3 text-sm text-gray-700 leading-relaxed border-2 border-dashed border-gray-400 rounded-lg px-4 py-3 bg-[repeating-linear-gradient(135deg,#fff_0_14px,#f9fafb_14px_28px)]"
+              // "Sketch" look: dashed frame and a light hatch say "not final".
+              // Kept to one line on wide screens, wraps on small ones.
+              className="container mx-auto flex items-center gap-3 text-xs text-gray-700 leading-relaxed border-2 border-dashed border-gray-400 rounded-lg px-3 py-2 bg-[repeating-linear-gradient(135deg,#fff_0_14px,#f9fafb_14px_28px)]"
               role="note"
             >
-              <span className="text-xl leading-none" aria-hidden="true">
-                ✏️
+              <span className="flex-none font-mono text-[11px] tracking-widest bg-gray-900 text-white rounded px-1.5 py-0.5">
+                ENTWURF
               </span>
-              <span>
-                <span className="inline-block font-mono text-xs tracking-widest bg-gray-900 text-white rounded px-1.5 py-0.5 mr-2 align-text-bottom">
-                  ENTWURF
-                </span>
+              <span className="min-w-0 lg:whitespace-nowrap lg:overflow-hidden lg:text-ellipsis">
                 Die Zahlen für {queriedYear} stammen aus dem {yearInfo.budget}{' '}
                 der Stadtverwaltung (Stand {yearInfo.stand}). Der Stadtrat hat
                 diesen Haushalt noch nicht beschlossen, die Beträge können sich
