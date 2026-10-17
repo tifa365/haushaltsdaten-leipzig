@@ -8,7 +8,7 @@ export const Header: FC = () => {
     <header
       className={classNames(
         'px-4 xl:px-8 py-5 xl:py-4',
-        'w-screen inset-0 bottom-auto bg-gray-50',
+        'w-full inset-0 bottom-auto bg-gray-50',
         'border-b border-gray-100',
         'z-10'
       )}
