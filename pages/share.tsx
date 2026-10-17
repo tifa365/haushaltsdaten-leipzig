@@ -50,7 +50,9 @@ export const SharePage: FC = () => {
           <TreeMapWithData
             hierarchy={hierarchyData}
             width={width}
-            height={height}
+            // Leave room for the level chips and the header row (iframe
+            // content has a fixed height and does not scroll)
+            height={Math.max(120, height - 76)}
             view={queriedView}
             node={queriedNode}
           />

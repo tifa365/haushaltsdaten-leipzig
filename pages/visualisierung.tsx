@@ -203,9 +203,9 @@ export const Visualization: FC = () => {
         {isDraftYear(queriedYear) && yearInfo && (
           <div className="px-4 mt-4">
             <p
-              // Yellow "construction site" box with a dashed frame; kept to
-              // one line on wide screens, wraps on small ones.
-              className="container mx-auto flex items-center gap-3 text-xs text-gray-800 leading-relaxed border-2 border-dashed border-amber-400 rounded-lg px-3 py-2 bg-amber-50"
+              // Yellow "construction site" box with a dashed frame. Hex values
+              // because the project's Tailwind palette has no amber/yellow.
+              className="container mx-auto flex items-center gap-3 text-sm text-gray-800 leading-snug border-2 border-dashed border-[#f59e0b] rounded-lg px-3 py-2 bg-[#fffbeb]"
               role="note"
             >
               <span
@@ -214,10 +214,10 @@ export const Visualization: FC = () => {
               >
                 🚧
               </span>
-              <span className="flex-none font-mono text-[11px] tracking-widest bg-amber-400 text-gray-900 rounded px-1.5 py-0.5">
+              <span className="flex-none font-mono text-xs font-bold tracking-widest bg-[#f59e0b] text-gray-900 rounded px-1.5 py-0.5">
                 ENTWURF
               </span>
-              <span className="min-w-0 lg:whitespace-nowrap lg:overflow-hidden lg:text-ellipsis">
+              <span className="min-w-0">
                 Die Zahlen für {queriedYear} stammen aus dem {yearInfo.budget}{' '}
                 der Stadtverwaltung (Stand {yearInfo.stand}). Der Stadtrat hat
                 diesen Haushalt noch nicht beschlossen, die Beträge können sich

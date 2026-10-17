@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef } from 'react'
+import { FC, useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { formatCurrency } from '@lib/utils/numberUtil'
 import { TreemapHierarchyType, TopicDepth } from '../../types/treemap'
@@ -41,12 +41,20 @@ type NodeGroup = d3.Selection<SVGGElement, unknown, HTMLElement, TreemapItem>
 
 const format = d3.format(',d')
 
-const BREADCRUMBS_HEIGHT = 56
+// Header row above the cells; shows the total of the opened level (the
+// path to it is rendered as HTML chips above the SVG)
+const BREADCRUMBS_HEIGHT = 30
 
 // Cells with children get a "›" marker (see global.css for hover styles)
 const CHEVRON_INSET = 7
 const CHEVRON_MIN_WIDTH = 56
 const CHEVRON_MIN_HEIGHT = 30
+// Labels are clipped this far before the right edge when a "›" is shown
+const CHEVRON_RESERVE = 22
+const LABEL_PADDING = 4
+
+// Unique ids for the per-cell clip paths
+let clipUid = 0
 
 // Bar view geometry
 const BAR_LABEL_WIDTH = 300
@@ -63,13 +71,23 @@ export const ZOOM_TRANSITION_MS = 750
 const hasChildren = (d: TreeMapNode): boolean =>
   Boolean(d.children && d.children.length > 0)
 
-/** Breadcrumb text of the root row: "Haushalt → Bereich → Produkt" */
-const pathName = (d: TreeMapNode): string =>
+/** One chip of the level navigation above the chart */
+interface Crumb {
+  name: string
+  path: string
+  /** Color of the policy area (only on the first level below the root) */
+  color?: string
+}
+
+const crumbsFor = (d: TreeMapNode): Crumb[] =>
   d
     .ancestors()
     .reverse()
-    .map((a) => a.data.name)
-    .join(' → ')
+    .map((a) => ({
+      name: a.data.name,
+      path: nodePath(a),
+      color: a.depth === 1 ? a.data.color : undefined,
+    }))
 
 /** Ids from the root down to the node, e.g. "C/3151" ("" for the root) */
 const nodePath = (d: TreeMapNode): string =>
@@ -185,6 +203,24 @@ function position(group: NodeGroup, root: TreeMapNode, layout: Layout): void {
     return `translate(${g.x},${g.y})`
   })
 
+  // Label area: inside the cell and in front of the "›" (treemap); label
+  // column, bar and amount (bars)
+  nodes
+    .select('clipPath rect')
+    .attr('x', (d) => (d !== root && isBars ? -BAR_LABEL_WIDTH : 0))
+    .attr('y', 0)
+    .attr('width', (d) => {
+      const g = geo(d)
+      if (d !== root && isBars) return BAR_LABEL_WIDTH + g.w + BAR_VALUE_WIDTH
+      const chevron =
+        d !== root &&
+        hasChildren(d) &&
+        g.w >= CHEVRON_MIN_WIDTH &&
+        g.h >= CHEVRON_MIN_HEIGHT
+      return Math.max(0, g.w - (chevron ? CHEVRON_RESERVE : LABEL_PADDING))
+    })
+    .attr('height', (d) => Math.max(0, geo(d).h))
+
   nodes
     .select('rect')
     .attr('width', (d) => geo(d).w)
@@ -204,7 +240,11 @@ function position(group: NodeGroup, root: TreeMapNode, layout: Layout): void {
     .select('text.treemap-value')
     .attr('x', (d) => (d !== root && isBars ? geo(d).w + 8 : 5))
     .attr('y', (d) =>
-      d !== root && isBars ? geo(d).h / 2 + 5 : 2.7 * layout.fontSize
+      d === root
+        ? 1.2 * layout.fontSize
+        : isBars
+        ? geo(d).h / 2 + 5
+        : 2.7 * layout.fontSize
     )
 
   // Drill-down marker: top-right corner, hidden in tiny cells and in bar view
@@ -232,7 +272,7 @@ function applyTexts(
     .selectAll<d3.BaseType, TreeMapNode>('g')
     .select('text.treemap-label')
     .text((d) => {
-      if (d === root) return pathName(d)
+      if (d === root) return ''
       if (view !== 'bars') return d.data.name
       const name = truncate(
         d.data.name,
@@ -255,6 +295,7 @@ export const TreeMap: FC<TreeMapType> = ({
   const viewRef = useRef<TreeMapView>(view)
   const setViewRef = useRef<((next: TreeMapView) => void) | null>(null)
   const goToRef = useRef<((path: string | null) => void) | null>(null)
+  const [crumbs, setCrumbs] = useState<Crumb[]>([])
   const nodeRef = useRef<string | null>(node)
   // Always call the latest handler (the effect below runs only on data changes)
   const onChangeLevelRef = useRef(onChangeLevel)
@@ -321,6 +362,7 @@ export const TreeMap: FC<TreeMapType> = ({
     const rootNode = treemap(hierarchy)
     // Open the level from the URL directly (no animation)
     let currentRoot = findNode(rootNode, nodeRef.current)
+    setCrumbs(crumbsFor(currentRoot))
     x.domain([currentRoot.x0, currentRoot.x1])
     y.domain([currentRoot.y0, currentRoot.y1])
     let group = svg.append('g').call(render, currentRoot)
@@ -343,11 +385,13 @@ export const TreeMap: FC<TreeMapType> = ({
       if (target.parent === currentRoot) {
         // One level down (e.g. a policy area picked in the dropdown)
         zoomin(target)
-      } else if (currentRoot.parent === target) {
-        zoomout(currentRoot)
+      } else if (currentRoot.ancestors().includes(target)) {
+        // Any level up (e.g. a chip of the level navigation)
+        zoomout(currentRoot, target)
       } else {
         svg.interrupt().selectAll('g').interrupt().remove()
         currentRoot = target
+        setCrumbs(crumbsFor(target))
         x.domain([target.x0, target.x1])
         y.domain([target.y0, target.y1])
         group = svg.append('g').call(render, target)
@@ -426,7 +470,7 @@ export const TreeMap: FC<TreeMapType> = ({
         .append('text')
         .attr('class', 'treemap-label')
         .attr('font-weight', (d) => (d === root ? 'bold' : null))
-        .text((d) => (d === root ? pathName(d) : d.data.name))
+        .text((d) => (d === root ? '' : d.data.name))
 
       // Amount
       node
@@ -449,6 +493,18 @@ export const TreeMap: FC<TreeMapType> = ({
         .attr('fill-opacity', 0.85)
         .attr('pointer-events', 'none')
         .text('›')
+
+      // Clip label and amount to the cell (appended after the cell's own
+      // rect so position() still finds that one with select('rect'))
+      node.each(function () {
+        const id = `treemap-clip-${++clipUid}`
+        const g = d3.select(this)
+        g.append('clipPath').attr('id', id).append('rect')
+        g.selectAll('text.treemap-label, text.treemap-value').attr(
+          'clip-path',
+          `url(#${id})`
+        )
+      })
 
       applyTexts(group, root, layout.view, fontSize)
       group.call(position, root, layout)
@@ -474,6 +530,7 @@ export const TreeMap: FC<TreeMapType> = ({
       const groupToRemove = group.attr('pointer-events', 'none')
       const groupToAdd = (group = svg.append('g').call(render, d))
       currentRoot = d
+      setCrumbs(crumbsFor(d))
       fitSvg(d)
 
       x.domain([d.x0, d.x1])
@@ -505,11 +562,15 @@ export const TreeMap: FC<TreeMapType> = ({
     }
 
     // When zooming out, draw the old nodes on top, and fade them out.
-    function zoomout(d: TreeMapNode): void {
+    function zoomout(
+      d: TreeMapNode,
+      target: TreeMapNode = d.parent as TreeMapNode
+    ): void {
       const groupToRemove = group.attr('pointer-events', 'none')
-      const parent = d.parent as TreeMapNode
+      const parent = target
       const groupToAdd = (group = svg.insert('g', '*').call(render, parent))
       currentRoot = parent
+      setCrumbs(crumbsFor(parent))
       fitSvg(parent)
 
       x.domain([parent.x0 || 0, parent.x1 || 0])
@@ -554,13 +615,68 @@ export const TreeMap: FC<TreeMapType> = ({
   }, [node])
 
   return (
-    <svg
-      id="expenditures-treemap"
-      width={width}
-      height={height + BREADCRUMBS_HEIGHT}
-      viewBox={`0, -${BREADCRUMBS_HEIGHT}, ${width}, ${
-        height + BREADCRUMBS_HEIGHT
-      }`}
-    ></svg>
+    <>
+      <nav
+        aria-label="Ebenen"
+        className="flex flex-wrap items-center gap-1.5 mb-2 min-h-[2.25rem]"
+      >
+        {crumbs.map((crumb, index) => {
+          const isCurrent = index === crumbs.length - 1
+          const content = (
+            <>
+              {index === 0 && <span aria-hidden="true">⌂</span>}
+              {crumb.color && (
+                <span
+                  className="w-2.5 h-2.5 rounded-full flex-none"
+                  style={{ backgroundColor: crumb.color }}
+                  aria-hidden="true"
+                />
+              )}
+              <span className="truncate">{crumb.name}</span>
+            </>
+          )
+          const chip =
+            'inline-flex items-center gap-1.5 max-w-[24rem] rounded-full border px-3.5 py-1.5 text-sm font-semibold'
+          return (
+            <span
+              key={crumb.path || 'root'}
+              className="inline-flex items-center gap-1.5"
+            >
+              {index > 0 && (
+                <span className="text-gray-400" aria-hidden="true">
+                  ›
+                </span>
+              )}
+              {isCurrent ? (
+                <span
+                  aria-current="page"
+                  title={crumb.name}
+                  className={`${chip} bg-gray-900 border-gray-900 text-white`}
+                >
+                  {content}
+                </span>
+              ) : (
+                <button
+                  type="button"
+                  title={`Zurück zu: ${crumb.name}`}
+                  onClick={() => goToRef.current?.(crumb.path)}
+                  className={`${chip} bg-white border-gray-200 text-gray-800 transition-colors hover:border-brand hover:text-brand focus:outline-none focus-visible:ring-2 focus-visible:ring-brand`}
+                >
+                  {content}
+                </button>
+              )}
+            </span>
+          )
+        })}
+      </nav>
+      <svg
+        id="expenditures-treemap"
+        width={width}
+        height={height + BREADCRUMBS_HEIGHT}
+        viewBox={`0, -${BREADCRUMBS_HEIGHT}, ${width}, ${
+          height + BREADCRUMBS_HEIGHT
+        }`}
+      ></svg>
+    </>
   )
 }

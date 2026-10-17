@@ -47,7 +47,7 @@ const parseView = (
 
 /** Zoom path: policy block letter, optionally followed by a product code */
 const parseNode = (val: string | string[] | undefined): string | null =>
-  typeof val === 'string' && /^[A-K](\/\d+)?$/.test(val) ? val : null
+  typeof val === 'string' && /^[A-K](\/[0-9A-Za-z-]+)?$/.test(val) ? val : null
 
 const parseString = (val: string | string[] | undefined): string | null =>
   (val && typeof val === 'string' && val.length > 0 && val) || null
