@@ -203,12 +203,18 @@ export const Visualization: FC = () => {
         {isDraftYear(queriedYear) && yearInfo && (
           <div className="px-4 mt-4">
             <p
-              // "Sketch" look: dashed frame and a light hatch say "not final".
-              // Kept to one line on wide screens, wraps on small ones.
-              className="container mx-auto flex items-center gap-3 text-xs text-gray-700 leading-relaxed border-2 border-dashed border-gray-400 rounded-lg px-3 py-2 bg-[repeating-linear-gradient(135deg,#fff_0_14px,#f9fafb_14px_28px)]"
+              // Yellow "construction site" box with a dashed frame; kept to
+              // one line on wide screens, wraps on small ones.
+              className="container mx-auto flex items-center gap-3 text-xs text-gray-800 leading-relaxed border-2 border-dashed border-amber-400 rounded-lg px-3 py-2 bg-amber-50"
               role="note"
             >
-              <span className="flex-none font-mono text-[11px] tracking-widest bg-gray-900 text-white rounded px-1.5 py-0.5">
+              <span
+                className="flex-none text-lg leading-none"
+                aria-hidden="true"
+              >
+                🚧
+              </span>
+              <span className="flex-none font-mono text-[11px] tracking-widest bg-amber-400 text-gray-900 rounded px-1.5 py-0.5">
                 ENTWURF
               </span>
               <span className="min-w-0 lg:whitespace-nowrap lg:overflow-hidden lg:text-ellipsis">
