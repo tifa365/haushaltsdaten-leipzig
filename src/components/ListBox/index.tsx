@@ -63,7 +63,7 @@ export const ListBox: FC<ListBoxPropType> = ({
         >
           <Listbox.Options
             className={classNames(
-              'absolute right-0 mt-1 max-h-60 w-full min-w-[250px] overflow-auto',
+              'absolute left-0 mt-1 max-h-60 w-full min-w-[250px] overflow-auto',
               'rounded bg-white py-1 text-base shadow-lg',
               'ring-1 ring-gray-200 focus:outline-none',
               'sm:text-sm'
