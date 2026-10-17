@@ -58,6 +58,7 @@ export const Visualization: FC = () => {
     parsedQuery.year && isValidYear(parsedQuery.year)
       ? parsedQuery.year
       : DEFAULT_YEAR
+  const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
 
   const {
     treemap: hierarchyData,
@@ -140,7 +141,11 @@ export const Visualization: FC = () => {
         )}
         <div className="px-4 mt-6">
           <div
-            className="container mx-auto w-full h-[80vh] overflow-hidden"
+            // The bar view can be taller than the box and scrolls. The gutter
+            // is always reserved so the measured width does not change when
+            // switching views (a width change would rebuild the treemap and
+            // lose the current zoom level).
+            className="container mx-auto w-full h-[80vh] overflow-y-auto overflow-x-hidden [scrollbar-gutter:stable]"
             ref={observe}
           >
             {error && (
@@ -157,6 +162,7 @@ export const Visualization: FC = () => {
                 hierarchy={hierarchyData}
                 width={width}
                 height={height}
+                view={queriedView}
                 onChangeLevel={(level: { topicLabel?: string }) => {
                   const label = level.topicLabel || null
                   // Zooming back out to the root resets the list filter

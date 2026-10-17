@@ -19,6 +19,7 @@ export interface ParsedPageQueryType {
   district: keyof typeof policyAreas | 'all'
   year: number
   modus: string
+  view: 'treemap' | 'bars'
 }
 
 const isNumber = (val: unknown): boolean =>
@@ -36,6 +37,11 @@ const parseSingleNumber = (
 const parseYear = (year: number): number | undefined => {
   return VALID_YEARS.includes(year) ? year : undefined
 }
+
+const parseView = (
+  val: string | string[] | undefined
+): 'treemap' | 'bars' | null =>
+  val === 'bars' ? 'bars' : val === 'treemap' ? 'treemap' : null
 
 const parseString = (val: string | string[] | undefined): string | null =>
   (val && typeof val === 'string' && val.length > 0 && val) || null
@@ -86,5 +92,6 @@ export const mapRawQueryToState = (
       parseSingleNumber(rawQuery.year) ??
       parseYear(parseSingleNumber(rawQuery.year) as number),
     modus: parseString(rawQuery.modus),
+    view: parseView(rawQuery.view),
   })
 }

@@ -24,6 +24,7 @@ export const SharePage: FC = () => {
     parsedQuery.year && isValidYear(parsedQuery.year)
       ? parsedQuery.year
       : DEFAULT_YEAR
+  const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
 
   const {
     treemap: hierarchyData,
@@ -45,6 +46,7 @@ export const SharePage: FC = () => {
             hierarchy={hierarchyData}
             width={width}
             height={height}
+            view={queriedView}
           />
         )}
       </div>
