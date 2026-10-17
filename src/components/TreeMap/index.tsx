@@ -84,9 +84,10 @@ const SHADE_MAX_L = 80
 const GOLDEN_RATIO = 0.618033988749895
 
 /**
- * Fill color of a cell. Policy areas keep their own color; every level
- * below gets a distinct shade of its parent's color. The golden-ratio
- * sequence keeps neighbours (siblings are sorted by value) apart.
+ * Fill color of a cell. Policy areas keep their own color; the products
+ * directly below get distinct shades of it (the golden-ratio sequence keeps
+ * neighbours apart, siblings are sorted by value). Deeper levels all share
+ * their product's shade, so the color stays readable as "one product".
  */
 const shadeFor = (d: TreeMapNode): string => {
   if (d.depth <= 1 || !d.parent) {
@@ -96,6 +97,7 @@ const shadeFor = (d: TreeMapNode): string => {
       '#999999'
     )
   }
+  if (d.depth >= 3) return shadeFor(d.parent)
   const siblings = d.parent.children || []
   const base = d3.hcl(shadeFor(d.parent))
   if (siblings.length < 2) return base.formatHex()
