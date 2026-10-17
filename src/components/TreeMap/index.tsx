@@ -47,8 +47,8 @@ const CHEVRON_MIN_HEIGHT = 30
 // Bar view geometry
 const BAR_LABEL_WIDTH = 300
 const BAR_VALUE_WIDTH = 150
-const BAR_MIN_ROW_HEIGHT = 28
-const BAR_MAX_THICKNESS = 24
+const BAR_MIN_ROW_HEIGHT = 42
+const BAR_MAX_THICKNESS = 36
 // Approximate glyph width for truncating labels to the label column
 const AVG_CHAR_WIDTH_EM = 0.55
 const VIEW_TRANSITION_MS = 700
