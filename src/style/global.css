@@ -93,3 +93,16 @@
 	border-radius: 1px;
 	color: #ffffff;
   }
+/* Treemap: cells with a further level underneath */
+#expenditures-treemap g.treemap-drillable rect {
+	transition: stroke-width 120ms ease;
+}
+#expenditures-treemap g.treemap-drillable:hover rect {
+	stroke-width: 3px;
+}
+#expenditures-treemap .treemap-chevron {
+	transition: transform 120ms ease, opacity 200ms ease;
+}
+#expenditures-treemap g.treemap-drillable:hover .treemap-chevron {
+	transform: translateX(2px);
+}

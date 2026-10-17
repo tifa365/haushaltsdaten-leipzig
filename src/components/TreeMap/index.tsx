@@ -35,6 +35,13 @@ const format = d3.format(',d')
 
 const BREADCRUMBS_HEIGHT = 56
 
+// Cells with children get a "›" marker (see global.css for hover styles)
+const CHEVRON_INSET = 7
+const CHEVRON_MIN_WIDTH = 56
+const CHEVRON_MIN_HEIGHT = 30
+const hasChildren = (d: TreeMapNode): boolean =>
+  Boolean(d.children && d.children.length > 0)
+
 function position(
   group: d3.Selection<SVGGElement, unknown, HTMLElement, TreemapItem>,
   root: TreeMapNode,
@@ -53,6 +60,18 @@ function position(
     .attr('width', (d) => (d === root ? width : x(d.x1) - x(d.x0)))
     .attr('height', (d) =>
       d === root ? BREADCRUMBS_HEIGHT : y(d.y1) - y(d.y0)
+    )
+
+  // Drill-down marker: top-right corner, hidden when the cell is too small
+  group
+    .selectAll<d3.BaseType, TreeMapNode>('g')
+    .select('text.treemap-chevron')
+    .attr('x', (d) => x(d.x1) - x(d.x0) - CHEVRON_INSET)
+    .attr('opacity', (d) =>
+      x(d.x1) - x(d.x0) >= CHEVRON_MIN_WIDTH &&
+      y(d.y1) - y(d.y0) >= CHEVRON_MIN_HEIGHT
+        ? 1
+        : 0
     )
 }
 
@@ -116,6 +135,7 @@ export const TreeMap: FC<TreeMapType> = ({
 
       node
         .attr('id', (d) => `level-${d.depth}-${d.data.id || ''}`)
+        .classed('treemap-drillable', (d) => d !== root && hasChildren(d))
         .filter((d) => Boolean(d === root ? d.parent : d.children))
         .attr('cursor', 'pointer')
         .on('click', (_, d) => {
@@ -138,6 +158,10 @@ export const TreeMap: FC<TreeMapType> = ({
               policyAreaDescriptions[
                 d.data.id as keyof typeof policyAreaDescriptions
               ] || ''
+            }${
+              d !== root && hasChildren(d)
+                ? '\nKlicken, um die nächste Ebene zu öffnen'
+                : ''
             }`
         )
 
@@ -193,6 +217,21 @@ export const TreeMap: FC<TreeMapType> = ({
           i === nodes.length - 1 ? 'normal' : null
         )
         .text((d) => d)
+
+      // "›" marker on cells that can be zoomed into
+      node
+        .filter((d) => d !== root && hasChildren(d))
+        .append('text')
+        .attr('class', 'treemap-chevron')
+        .attr('aria-hidden', 'true')
+        .attr('text-anchor', 'end')
+        .attr('y', '1.15em')
+        .attr('font-size', '20px')
+        .attr('font-weight', 'bold')
+        .attr('fill', '#fff')
+        .attr('fill-opacity', 0.85)
+        .attr('pointer-events', 'none')
+        .text('›')
 
       group.call(position, root, width, x, y)
     }
