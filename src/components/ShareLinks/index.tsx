@@ -19,13 +19,15 @@ const IconPopover: FC<{
           title={label}
           aria-label={label}
           className={classNames(
+            // Framed like the dropdowns next to it (see ListBox)
             'inline-flex items-center justify-center rounded w-10 h-10',
-            'transition-colors focus:outline-none',
-            'focus-visible:ring-2 focus-visible:ring-brand',
+            'border transition-colors focus:outline-none',
+            'focus-visible:border-brand focus-visible:ring-2',
+            'focus-visible:ring-brand focus-visible:ring-opacity-75',
             'focus-visible:ring-offset-2 focus-visible:ring-offset-white',
             open
-              ? 'bg-gray-900 text-white'
-              : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900'
+              ? 'bg-gray-900 border-gray-900 text-white'
+              : 'bg-white border-gray-200 text-gray-700 hover:text-brand hover:border-brand'
           )}
         >
           {icon}
@@ -64,9 +66,9 @@ export const ShareLinks: FC<{ state: ShareState }> = ({ state }) => {
   )
 
   return (
-    <div className="inline-flex items-center gap-1">
-      <IconPopover label="Ansicht teilen" icon={<Share size={22} />}>
-        <h3 className="text-lg font-bold">Ansicht teilen</h3>
+    <div className="inline-flex items-center gap-2">
+      <IconPopover label="Detailansicht teilen" icon={<Share size={22} />}>
+        <h3 className="text-lg font-bold">Detailansicht teilen</h3>
         <Paragraph className="leading-normal text-gray-500">
           Dieser Link öffnet genau die aktuelle Ansicht: Jahr, Politikbereich,
           Darstellung und die geöffnete Ebene.
