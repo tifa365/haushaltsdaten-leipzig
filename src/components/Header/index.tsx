@@ -1,4 +1,5 @@
 import { Nav } from '@components/Nav'
+import { InternalLink } from '@components/InternalLink'
 import classNames from 'classnames'
 import { FC } from 'react'
 
@@ -19,7 +20,12 @@ export const Header: FC = () => {
         )}
       >
         <h1 className={classNames('w-full md:w-auto', 'font-bold text-xl')}>
-          Leipzig Haushaltsdaten
+          <InternalLink
+            href="/"
+            className="hover:text-brand transition-colors focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 rounded-[1px] outline-none"
+          >
+            Leipzig Haushaltsdaten
+          </InternalLink>
         </h1>
         <Nav />
       </div>
