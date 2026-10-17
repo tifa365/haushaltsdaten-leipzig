@@ -1,4 +1,10 @@
 @tailwind base;
+
+/* Always reserve the page scrollbar: the chart width must not change when
+   the bar view makes the page longer (a width change resets the zoom) */
+html {
+  scrollbar-gutter: stable;
+}
 @tailwind components;
 @tailwind utilities;
 @layer utilities {

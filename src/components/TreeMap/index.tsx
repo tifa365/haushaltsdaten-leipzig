@@ -121,10 +121,7 @@ function barGeometry(
 ): Geometry {
   const siblings = root.children || []
   const index = Math.max(0, siblings.indexOf(d))
-  const rowHeight = Math.max(
-    BAR_MIN_ROW_HEIGHT,
-    Math.min(BAR_MAX_ROW_HEIGHT, layout.height / Math.max(1, siblings.length))
-  )
+  const rowHeight = barRowHeight(siblings.length, layout)
   const thickness = Math.min(BAR_MAX_THICKNESS, rowHeight - 4)
   const max = siblings[0]?.value || 1
   const trackWidth = Math.max(
@@ -158,10 +155,19 @@ function geometry(d: TreeMapNode, root: TreeMapNode, layout: Layout): Geometry {
 }
 
 /** Total drawing height needed for the current view (bars may exceed the box). */
+/** Row height in the bar view: rows share the treemap height, within limits */
+function barRowHeight(rows: number, layout: Layout): number {
+  return Math.max(
+    BAR_MIN_ROW_HEIGHT,
+    Math.min(BAR_MAX_ROW_HEIGHT, layout.height / Math.max(1, rows))
+  )
+}
+
+/** Height the SVG needs; the bar view is as tall as its rows */
 function contentHeight(root: TreeMapNode, layout: Layout): number {
   if (layout.view !== 'bars') return layout.height
   const n = (root.children || []).length
-  return Math.max(layout.height, n * BAR_MIN_ROW_HEIGHT)
+  return Math.ceil(n * barRowHeight(n, layout))
 }
 
 /**

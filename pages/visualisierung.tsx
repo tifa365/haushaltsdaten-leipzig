@@ -2,7 +2,7 @@ import { ListItem } from '@components/ListItem'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState } from '@lib/utils/queryUtil'
 import { GetStaticProps } from 'next'
-import { FC, useState, useMemo } from 'react'
+import { FC, useState, useMemo, useEffect } from 'react'
 import { unstable_batchedUpdates } from 'react-dom'
 import { ZOOM_TRANSITION_MS } from '@components/TreeMap'
 import useDimensions from 'react-cool-dimensions'
@@ -23,6 +23,24 @@ import { BudgetListItem } from '../src/types/budget'
 
 const ALL_POLICY_AREAS = 'all'
 const MAX_ROWS = 100
+// Height of the treemap as a share of the viewport
+const CHART_VIEWPORT_SHARE = 0.8
+
+/**
+ * Treemap height from the viewport. The container itself is not measured
+ * so it can grow with the bar view (shown in full, the page scrolls).
+ */
+const useChartHeight = (): number => {
+  const [height, setHeight] = useState(0)
+  useEffect(() => {
+    const update = (): void =>
+      setHeight(Math.round(window.innerHeight * CHART_VIEWPORT_SHARE))
+    update()
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
+  return height
+}
 
 /**
  * Runs React updates triggered from inside a d3 click handler once the zoom
@@ -64,7 +82,8 @@ const filterBySelectedNode = (
 }
 
 export const Visualization: FC = () => {
-  const { observe, width, height } = useDimensions()
+  const { observe, width } = useDimensions()
+  const height = useChartHeight()
   const { push, replace, pathname, query, isReady } = useRouter()
 
   const parsedQuery = mapRawQueryToState(query)
@@ -185,11 +204,10 @@ export const Visualization: FC = () => {
         )}
         <div className="px-4 mt-6">
           <div
-            // The bar view can be taller than the box and scrolls. The gutter
-            // is always reserved so the measured width does not change when
-            // switching views (a width change would rebuild the treemap and
-            // lose the current zoom level).
-            className="container mx-auto w-full h-[80vh] overflow-y-auto overflow-x-hidden [scrollbar-gutter:stable]"
+            // Grows with the bar view; only the width is measured here (a
+            // width change rebuilds the treemap and loses the zoom level,
+            // see html { scrollbar-gutter } in global.css)
+            className="container mx-auto w-full"
             ref={observe}
           >
             {error && (
