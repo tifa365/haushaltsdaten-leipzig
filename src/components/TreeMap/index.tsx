@@ -47,7 +47,8 @@ const CHEVRON_MIN_HEIGHT = 30
 // Bar view geometry
 const BAR_LABEL_WIDTH = 300
 const BAR_VALUE_WIDTH = 150
-const BAR_MIN_ROW_HEIGHT = 42
+const BAR_MIN_ROW_HEIGHT = 40
+const BAR_MAX_ROW_HEIGHT = 46
 const BAR_MAX_THICKNESS = 36
 // Approximate glyph width for truncating labels to the label column
 const AVG_CHAR_WIDTH_EM = 0.55
@@ -93,9 +94,9 @@ function barGeometry(
   const index = Math.max(0, siblings.indexOf(d))
   const rowHeight = Math.max(
     BAR_MIN_ROW_HEIGHT,
-    layout.height / Math.max(1, siblings.length)
+    Math.min(BAR_MAX_ROW_HEIGHT, layout.height / Math.max(1, siblings.length))
   )
-  const thickness = Math.min(BAR_MAX_THICKNESS, rowHeight - 6)
+  const thickness = Math.min(BAR_MAX_THICKNESS, rowHeight - 4)
   const max = siblings[0]?.value || 1
   const trackWidth = Math.max(
     40,
