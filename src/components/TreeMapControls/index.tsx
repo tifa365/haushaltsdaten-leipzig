@@ -19,19 +19,38 @@ export type TreeMapControlsPropType = Partial<ParsedPageQueryType> & {
 
 const Separator: FC = () => <span className="h-10 w-[1px] bg-gray-200" />
 
+// Both icons are drawn with strokes in the current text color, so they stay
+// visible on the dark (active) and the white (inactive) button alike.
+const iconProps = {
+  fill: 'none',
+  stroke: 'currentColor',
+  strokeWidth: 1.75,
+  strokeLinecap: 'round' as const,
+  strokeLinejoin: 'round' as const,
+}
+
+/** A frame split into unequal cells, like a treemap */
 const TreemapIcon: FC = () => (
-  <svg viewBox="0 0 14 14" className="w-3.5 h-3.5 fill-current" aria-hidden>
-    <rect x="0" y="0" width="8" height="14" rx="1" />
-    <rect x="9" y="0" width="5" height="6" rx="1" />
-    <rect x="9" y="8" width="5" height="6" rx="1" />
+  <svg viewBox="0 0 16 16" className="w-4 h-4" aria-hidden {...iconProps}>
+    <rect x="1" y="1" width="14" height="14" rx="1.5" />
+    <line x1="7.5" y1="1" x2="7.5" y2="15" />
+    <line x1="7.5" y1="6.5" x2="15" y2="6.5" />
+    <line x1="11.25" y1="6.5" x2="11.25" y2="15" />
   </svg>
 )
 
+/** Three horizontal bars of decreasing length */
 const BarsIcon: FC = () => (
-  <svg viewBox="0 0 14 14" className="w-3.5 h-3.5 fill-current" aria-hidden>
-    <rect x="0" y="1" width="14" height="3" rx="1" />
-    <rect x="0" y="5.5" width="9" height="3" rx="1" />
-    <rect x="0" y="10" width="5" height="3" rx="1" />
+  <svg
+    viewBox="0 0 16 16"
+    className="w-4 h-4"
+    aria-hidden
+    {...iconProps}
+    strokeWidth={2.5}
+  >
+    <line x1="2" y1="3.5" x2="14" y2="3.5" />
+    <line x1="2" y1="8" x2="10" y2="8" />
+    <line x1="2" y1="12.5" x2="6" y2="12.5" />
   </svg>
 )
 
