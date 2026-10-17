@@ -1,73 +1,46 @@
 import { TreeMapWithData } from '@components/TreeMap/withData'
-import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
-import { GetServerSideProps } from 'next'
+import { mapRawQueryToState } from '@lib/utils/queryUtil'
+import { GetStaticProps } from 'next'
 import { FC } from 'react'
 import useDimensions from 'react-cool-dimensions'
+import { useRouter } from 'next/router'
 import { DEFAULT_YEAR, isValidYear } from '@lib/utils/yearValidator'
-import fs from 'fs'
-import path from 'path'
+import { useBudgetData } from '@lib/hooks/useBudgetData'
 
-interface TreemapNode {
-  id: string
-  name: string
-  value?: number
-  color?: string
-  children?: TreemapNode[]
-}
+// eslint-disable-next-line @typescript-eslint/require-await
+export const getStaticProps: GetStaticProps = async () => ({
+  props: {
+    title: 'Visualisierung',
+  },
+})
 
-interface SharePageProps {
-  query: Partial<ParsedPageQueryType>
-  queriedYear: number
-  queriedPolicyArea: string | null
-  hierarchyData: TreemapNode
-}
-
-// const ALL_POLICY_AREAS = 'all'
-
-export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-  const parsedQuery = query ? mapRawQueryToState(query) : {}
-
-  const queriedPolicyArea =
-    parsedQuery && parsedQuery.district && !Array.isArray(parsedQuery.district)
-      ? parsedQuery.district
-      : null
-
-  const queriedYear = parsedQuery.year
-
-  // Load static JSON data from filesystem (server-side)
-  const dataDir = path.join(process.cwd(), 'public', 'data')
-  const year =
-    queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR
-
-  try {
-    // Load treemap data
-    const treemapPath = path.join(dataDir, `${year}`, 'treemap.json')
-    const treemapData = JSON.parse(fs.readFileSync(treemapPath, 'utf-8'))
-
-    return {
-      props: {
-        title: 'Visualisierung',
-        query,
-        queriedYear: year,
-        queriedPolicyArea: queriedPolicyArea,
-        hierarchyData: treemapData,
-      },
-    }
-  } catch (error) {
-    console.error('Error loading static data:', error)
-    throw new Error(
-      `Failed to load data for year ${year}. Make sure to run: npm run data:build`
-    )
-  }
-}
-
-export const SharePage: FC<SharePageProps> = ({ hierarchyData }) => {
+/** SVG-only treemap for embedding via <iframe>; reads ?year= from the URL. */
+export const SharePage: FC = () => {
   const { observe, width, height } = useDimensions()
+  const { query, isReady } = useRouter()
+
+  const parsedQuery = mapRawQueryToState(query)
+  const queriedYear =
+    parsedQuery.year && isValidYear(parsedQuery.year)
+      ? parsedQuery.year
+      : DEFAULT_YEAR
+
+  const {
+    treemap: hierarchyData,
+    isLoading,
+    error,
+  } = useBudgetData(isReady ? queriedYear : null, { withList: false })
 
   return (
     <>
       <div className="w-full h-screen overflow-hidden" ref={observe}>
-        {hierarchyData && width && height && (
+        {error && (
+          <p className="text-center py-12 text-red-700" role="alert">
+            Die Daten für {queriedYear} konnten nicht geladen werden.
+          </p>
+        )}
+        {!error && isLoading && <p className="text-center py-12">Lädt...</p>}
+        {!error && !isLoading && hierarchyData && width && height && (
           <TreeMapWithData
             hierarchy={hierarchyData}
             width={width}

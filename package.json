@@ -8,7 +8,7 @@
     "data:generate": "node scripts/generate-static-json.js",
     "data:build": "npm run data:download && npm run data:process && npm run data:generate",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "test": "jest --maxWorkers=50% --coverage --collectCoverageFrom='./(src|pages)/**/*.ts(x)?' --collectCoverageFrom='!./(src|pages)/**/*.stories.ts(x)?'",
     "test:watch": "npm run test -- --watch",

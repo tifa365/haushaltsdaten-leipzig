@@ -95,7 +95,9 @@ export const TreeMap: FC<TreeMapType> = ({
       d3.treemap<TreemapHierarchyType>().tile(tile)(
         d3
           .hierarchy<TreemapHierarchyType>(data)
-          .sum((d) => d.value || 0)
+          // Only leaves carry amounts; inner nodes (blocks, products) also have
+          // a precomputed value in the JSON, which must not be added again.
+          .sum((d) => (d.children && d.children.length > 0 ? 0 : d.value || 0))
           .sort((a, b) => (b.value || 0) - (a.value || 0))
       )
 

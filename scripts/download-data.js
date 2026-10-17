@@ -5,6 +5,7 @@
  * pass --force to re-download.
  */
 
+/* global fetch */
 const fs = require('fs');
 const path = require('path');
 const { SOURCES } = require('./data-sources');

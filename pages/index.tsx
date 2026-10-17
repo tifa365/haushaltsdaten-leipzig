@@ -3,6 +3,8 @@ import { GetStaticProps } from 'next'
 import { FC } from 'react'
 import TypeAnimation from 'react-type-animation'
 import { InternalLink } from '@components/InternalLink'
+import { withBasePath } from '@lib/utils/basePath'
+import { DEFAULT_YEAR } from '@lib/utils/yearValidator'
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps: GetStaticProps = async () => {
@@ -25,14 +27,18 @@ export const HomePage: FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold xl:text-right mb-3">
               Leipzig <br></br>Haushaltsdaten
             </h1>
-            <h1 className="text-2xl md:text-4xl md:text-right">2025/26</h1>
+            <h1 className="text-2xl md:text-4xl md:text-right">
+              2025/26 und Entwurf 2027/28
+            </h1>
           </div>
           <div className="flex-col italic xl:w-1/2 mt-6 md:mt-12 xl:mt-24 xl:pr-28">
             Der Leipziger Ergebnishaushalt zeigt, wofür die Stadt ihre
             Ressourcen einsetzt. Diese Webseite bietet einen Überblick über die
-            geplanten Ausgaben der Stadt Leipzig für den aktuellen
-            Doppelhaushalt 2025/26, aufgeschlüsselt nach Politikbereichen wie
-            Soziales, Bildung, Verwaltung und weiteren Bereichen. Sie steht als{' '}
+            geplanten Ausgaben der Stadt Leipzig für den beschlossenen
+            Doppelhaushalt 2025/26 sowie den im September 2026 vorgelegten
+            Entwurf des Doppelhaushalts 2027/28, aufgeschlüsselt nach
+            Politikbereichen wie Soziales, Bildung, Verwaltung und weiteren
+            Bereichen. Sie steht als{' '}
             <span className="text-brand">
               <InternalLink href={'/faq'} query={{ hashId: 'Open-Source' }}>
                 Open Source Projekt
@@ -98,8 +104,8 @@ export const HomePage: FC = () => {
                   </span>
                   <li>
                     <p className="pl-6">
-                      Alle Ausgaben und Einnahmen<br></br>in der Tree Map
-                      erkunden
+                      Alle Ausgaben der Jahre 2025 bis 2028<br></br>in der Tree
+                      Map erkunden
                     </p>
                   </li>
                 </ul>
@@ -112,7 +118,7 @@ export const HomePage: FC = () => {
               title="Beispiel-Visualisierung der Haushaltsdaten"
               width="400rem"
               height="400"
-              src="https://haushaltsdaten.odis-berlin.de/share"
+              src={withBasePath(`/share/?year=${DEFAULT_YEAR}`)}
             ></iframe>
           </div>
         </div>

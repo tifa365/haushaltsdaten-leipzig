@@ -7,10 +7,11 @@ import { useRouter } from 'next/router'
 import { FC, Fragment } from 'react'
 
 export const EmbeddPopup: FC = () => {
-  const { asPath } = useRouter()
+  const { asPath, basePath } = useRouter()
+  // asPath excludes the basePath (e.g. "/<repo>" on GitHub Pages), so add it back
   const sharableURL = `${
     typeof window !== 'undefined' ? window.location.origin : ''
-  }${asPath.replace('/visualisierung', '/share')}`
+  }${basePath}${asPath.replace('/visualisierung', '/share')}`
 
   return (
     <Popover className="relative">

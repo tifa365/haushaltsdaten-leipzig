@@ -277,7 +277,12 @@ function main() {
       generated: new Date().toISOString(),
       years: ALL_YEARS,
       defaultYear: DEFAULT_YEAR,
-      sources: processedSources.map(({ aggregated, items, ...meta }) => meta),
+      sources: processedSources.map((s) => {
+        const meta = { ...s };
+        delete meta.aggregated;
+        delete meta.items;
+        return meta;
+      }),
     },
     sources: processedSources,
   };

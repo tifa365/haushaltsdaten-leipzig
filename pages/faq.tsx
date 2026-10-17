@@ -53,10 +53,11 @@ export const FaqPage: FC = () => {
           </div>
 
           <p className="text-2xl text-center mt-6 md:mt-16">
-            ~2,4 Milliarden Euro
+            ~2,4 bis 2,7 Milliarden Euro
           </p>
           <p className="text-gray-500 text-xs md:text-sm text-center">
-            stehen Leipzig im Ergebnishaushalt 2025 zur Verfügung
+            ordentliche Aufwendungen pro Jahr im Ergebnishaushalt 2025 bis 2028
+            (2027/28 laut Entwurf)
           </p>
 
           <div className="mt-6 md:mt-16">
@@ -172,7 +173,10 @@ export const FaqPage: FC = () => {
           </h2>
           <ReadMore>
             {`Die interaktive Visualisierung (Tree Map) zeigt eine Übersicht der
-              Ausgaben des Leipziger Ergebnishaushalts 2025/2026. Die Flächen
+              Ausgaben des Leipziger Ergebnishaushalts: die Jahre 2025 und 2026
+              aus dem beschlossenen Doppelhaushalt 2025/26 sowie die Jahre 2027
+              und 2028 aus dem Entwurf des Doppelhaushalts 2027/28 (Stand
+              02.09.2026, vom Stadtrat noch nicht beschlossen). Die Flächen
               der Rechtecke sind dabei proportional zur Größe der
               darzustellenden Beträge. Die gezeigten Beträge gelten jeweils für
               ein einzelnes Haushaltsjahr. Über das Dropdown-Menü kann zwischen
@@ -206,8 +210,11 @@ export const FaqPage: FC = () => {
           <h2 className=" text-xl mt-6 md:mt-12">Wo kommen die Daten her?</h2>
           <ReadMore>
             {`Die Daten dieser Anwendung stammen aus dem Leipziger
-             Ergebnishaushalt 2025/2026. Die Originaldaten liegen als
-             Excel-Dateien (XLSX) vor und werden mit einem automatisierten
+             Ergebnishaushalt: dem Doppelhaushalt 2025/2026 und dem Entwurf des
+             Doppelhaushalts 2027/2028, beide veröffentlicht im Open-Data-Portal
+             der Stadt Leipzig (opendata.leipzig.de). Gezeigt werden die
+             ordentlichen Aufwendungen auf Produktebene. Die Originaldaten
+             liegen als Excel-Dateien (XLSX) vor und werden mit einem automatisierten
              Node.js-basierten Prozess verarbeitet und in statische JSON-Dateien
              konvertiert. Diese Architektur ermöglicht eine vollständige
              Nachvollziehbarkeit: Jede Änderung der Daten wird in Git
@@ -221,13 +228,13 @@ export const FaqPage: FC = () => {
           <ReadMore>
             {`Nicht nur die Haushaltsdaten sind offen als Open Data verfügbar -
             auch der Quellcode dieser Anwendung steht frei unter MIT-Lizenz zur
-            Verfügung. Die Digital-Community in Berlin und darüber hinaus ist
+            Verfügung. Die Digital-Community in Leipzig und darüber hinaus ist
             eingeladen, kollaborativ an der Entwicklung und Verbesserung der
             Seite mitzuwirken oder Komponenten davon für eigene Arbeiten und
             Projekte zu verwenden. Über 
             <a
               class="text-brand"
-              href="https://github.com/berlin/haushaltsdaten"
+              href="https://github.com/tifa365/haushaltsdaten-leipzig"
             >
               GitHub
             </a> 

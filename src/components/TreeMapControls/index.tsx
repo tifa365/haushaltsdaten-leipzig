@@ -2,7 +2,11 @@ import { ListBox } from '@components/ListBox'
 // import { ToggleSwitch } from '@components/Toggle'
 import { policyAreas } from '@data/policyAreas'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
-import { DEFAULT_YEAR, VALID_YEARS } from '@lib/utils/yearValidator'
+import {
+  DEFAULT_YEAR,
+  VALID_YEARS,
+  getYearLabel,
+} from '@lib/utils/yearValidator'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
@@ -73,8 +77,8 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
           </div>
           <ListBox
             selected={{
-              id: (year as string | number) ?? DEFAULT_YEAR,
-              name: (year as string | number) ?? DEFAULT_YEAR,
+              id: year,
+              name: getYearLabel(parseInt(year)),
             }}
             onChange={(year) =>
               onChange({
@@ -82,12 +86,10 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
                 year: year as number,
               })
             }
-            options={VALID_YEARS.map((year) => {
-              return {
-                id: `${year}`,
-                name: `${year}`,
-              }
-            })}
+            options={VALID_YEARS.map((year) => ({
+              id: `${year}`,
+              name: getYearLabel(year),
+            }))}
             additionalClasses="z-10"
           />
         </div>

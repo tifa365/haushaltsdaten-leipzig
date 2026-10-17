@@ -2,14 +2,15 @@ import { FC } from 'react'
 import NextHead from 'next/head'
 import colors from '../../style/colors'
 import { useRouter } from 'next/router'
+import { withBasePath } from '@lib/utils/basePath'
 
 const siteUrl =
   process.env.URL ||
   (process.env.VERCEL_ENV === 'preview' && process.env.VERCEL_URL) ||
   'http://localhost:3000'
 
-const faviconPath = '/favicon.ico'
-const faviconSvgPath = '/favicons/favicon.svg'
+const faviconPath = withBasePath('/favicon.ico')
+const faviconSvgPath = withBasePath('/favicons/favicon.svg')
 
 interface HeadPropType {
   currentPagePath: string
@@ -40,12 +41,12 @@ export const Head: FC<Partial<HeadPropType>> = ({
   themeColor = colors.brand,
   locales = ['de'],
   locale = 'de',
-  twitterUsername = 'citylabberlin',
+  twitterUsername = '',
   socialThumbnail = '',
 }) => {
   const { pathname } = useRouter()
   const longTitle = [pageTitle, siteTitle].join(' – ')
-  const formatedSocialImage = `${siteUrl}/social-image.jpg`
+  const formatedSocialImage = `${siteUrl}${withBasePath('/social-image.jpg')}`
 
   return (
     <NextHead>
@@ -92,14 +93,20 @@ export const Head: FC<Partial<HeadPropType>> = ({
         <meta property="og:image:alt" content={socialThumbnail} />
       )}
 
-      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+      <link
+        rel="apple-touch-icon"
+        href={withBasePath('/favicons/apple-touch-icon.png')}
+      />
 
       <link href={faviconPath} type="image/x-icon" rel="shortcut icon" />
       <link href={faviconSvgPath} type="image/svg+xml" rel="icon" />
 
-      <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="manifest" href={withBasePath('/manifest.webmanifest')} />
 
-      <link rel="author" href="https://odis-berlin.de" />
+      <link
+        rel="author"
+        href="https://github.com/tifa365/haushaltsdaten-leipzig"
+      />
     </NextHead>
   )
 }
