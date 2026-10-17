@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-const MATOMO_URL =
-  process.env.NEXT_PUBLIC_MATOMO_URL || 'https://piwik.example.com'
+// Tracking is only active when a Matomo instance is configured at build time.
+const MATOMO_URL = process.env.NEXT_PUBLIC_MATOMO_URL || ''
 const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID || '1'
 
 const createImageNoscript = (pathname = ''): HTMLElement => {
@@ -47,6 +47,7 @@ export const useMatomo = (): void => {
   const { pathname } = useRouter()
 
   useEffect(() => {
+    if (!MATOMO_URL) return
     const newScript = createImageNoscript(pathname)
     replaceNewScript(newScript)
   }, [pathname])
