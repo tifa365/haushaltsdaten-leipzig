@@ -71,6 +71,46 @@ export const ZOOM_TRANSITION_MS = 750
 const hasChildren = (d: TreeMapNode): boolean =>
   Boolean(d.children && d.children.length > 0)
 
+// Cell text switches to white on fills darker than this (CIELAB lightness)
+const LIGHT_TEXT_BELOW_L = 52
+const DARK_TEXT = '#111827'
+const LIGHT_TEXT = '#ffffff'
+
+// Shades below a policy area: lightness spread around the parent's color
+const SHADE_DARKER = 12
+const SHADE_LIGHTER = 14
+const SHADE_MIN_L = 25
+const SHADE_MAX_L = 80
+const GOLDEN_RATIO = 0.618033988749895
+
+/**
+ * Fill color of a cell. Policy areas keep their own color; the products
+ * directly below get distinct shades of it (the golden-ratio sequence keeps
+ * neighbours apart, siblings are sorted by value). Deeper levels all share
+ * their product's shade, so the color stays readable as "one product".
+ */
+const shadeFor = (d: TreeMapNode): string => {
+  if (d.depth <= 1 || !d.parent) {
+    return (
+      d.data.color ||
+      getColorByMainTopic(d.depth === 1 ? d.data.name : '') ||
+      '#999999'
+    )
+  }
+  if (d.depth >= 3) return shadeFor(d.parent)
+  const siblings = d.parent.children || []
+  const base = d3.hcl(shadeFor(d.parent))
+  if (siblings.length < 2) return base.formatHex()
+  const t = (siblings.indexOf(d) * GOLDEN_RATIO) % 1
+  const l = base.l - SHADE_DARKER + t * (SHADE_DARKER + SHADE_LIGHTER)
+  const shade = d3.hcl(
+    base.h,
+    base.c * (0.85 + 0.3 * t),
+    Math.min(SHADE_MAX_L, Math.max(SHADE_MIN_L, l))
+  )
+  return shade.formatHex()
+}
+
 /** One chip of the level navigation above the chart */
 interface Crumb {
   name: string
@@ -226,6 +266,14 @@ function position(group: NodeGroup, root: TreeMapNode, layout: Layout): void {
     .attr('width', (d) => geo(d).w)
     .attr('height', (d) => geo(d).h)
     .attr('rx', (d) => (d !== root && isBars ? 4 : 0))
+
+  // Text color: white on dark cells; dark next to the bars (white page)
+  const textColor = (d: TreeMapNode): string =>
+    d !== root && !isBars && d3.hcl(shadeFor(d)).l < LIGHT_TEXT_BELOW_L
+      ? LIGHT_TEXT
+      : DARK_TEXT
+  nodes.select('text.treemap-label').attr('fill', textColor)
+  nodes.select('text.treemap-value').attr('fill', textColor)
 
   // Name: inside the cell (treemap) or left of the bar (bars)
   nodes
@@ -447,21 +495,7 @@ export const TreeMap: FC<TreeMapType> = ({
         .append('rect')
         .attr('fill', (d) => {
           if (d === root) return '#fff'
-
-          // Use color from data if available (policy blocks have colors)
-          const topLevelAncestor = d
-            .ancestors()
-            .find((ancestor) => ancestor.depth === 1)
-          if (topLevelAncestor?.data.color) {
-            return topLevelAncestor.data.color
-          }
-
-          // Fallback to legacy color lookup
-          const mainTopic = d.parent
-            ? d.ancestors().find((ancestor) => ancestor.depth === 1)?.data
-                .name || ''
-            : d.data.name
-          return getColorByMainTopic(mainTopic)
+          return shadeFor(d)
         })
         .attr('stroke', '#fff')
 
