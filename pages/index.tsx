@@ -92,34 +92,29 @@ export const HomePage: FC = () => {
           </div>
         </div>
 
-        <div className="md:flex justify-center m-auto mt-6 md:mt-12 ">
-          <div className="flex-col mb-6 md:my-auto inline-block">
+        <div className="lg:w-3/6 m-auto mt-6 md:mt-10">
+          <iframe
+            className="block w-full border-0"
+            title="Beispiel-Visualisierung der Haushaltsdaten"
+            height="460"
+            src={withBasePath(`/share/?year=${DEFAULT_YEAR}&link=1`)}
+          ></iframe>
+          <div className="flex justify-center mt-6 md:mt-8">
             <FadeInWrapper>
-              <div className="pr-12">
-                <ul>
-                  <span className="font-bold text-xl text-brand">
-                    <InternalLink href={'/visualisierung'}>
-                      {'→ Zur Visualisierung'}
-                    </InternalLink>
-                  </span>
-                  <li>
-                    <p className="pl-6">
-                      Alle Ausgaben der Jahre 2025 bis 2028<br></br>in der Tree
-                      Map erkunden
-                    </p>
-                  </li>
-                </ul>
-              </div>
+              <ul>
+                <span className="font-bold text-xl text-brand">
+                  <InternalLink href={'/visualisierung'}>
+                    {'→ Zur Visualisierung'}
+                  </InternalLink>
+                </span>
+                <li>
+                  <p className="pl-6">
+                    Alle Ausgaben der Jahre 2025 bis 2028 in der Tree Map
+                    erkunden
+                  </p>
+                </li>
+              </ul>
             </FadeInWrapper>
-          </div>
-          <div className="flex-col inline-block my-auto justify-center md:pr-10">
-            <iframe
-              style={{ width: '100%' }}
-              title="Beispiel-Visualisierung der Haushaltsdaten"
-              width="400rem"
-              height="400"
-              src={withBasePath(`/share/?year=${DEFAULT_YEAR}`)}
-            ></iframe>
           </div>
         </div>
 

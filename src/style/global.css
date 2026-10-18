@@ -42,7 +42,7 @@ html {
   }
 
   html, body, #__next {
-    width: 100vw;
+    width: 100%;
     min-height: var(--screenHeight);
 		@apply font-sans text-gray-900 antialiased;
   }
