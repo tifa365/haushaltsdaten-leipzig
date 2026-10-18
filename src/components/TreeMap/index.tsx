@@ -39,8 +39,6 @@ export interface TreemapItem {
 type TreeMapNode = d3.HierarchyRectangularNode<TreemapHierarchyType>
 type NodeGroup = d3.Selection<SVGGElement, unknown, HTMLElement, TreemapItem>
 
-const format = d3.format(',d')
-
 // Header row above the cells; shows the total of the opened level (the
 // path to it is rendered as HTML chips above the SVG)
 const BREADCRUMBS_HEIGHT = 30
@@ -479,7 +477,9 @@ export const TreeMap: FC<TreeMapType> = ({
         .append('title')
         .text(
           (d) =>
-            `${d.data.name}\n${'Betrag: € '}${format(d.value || 0)}\n\n${
+            `${d.data.name}\n${'Betrag: € '}${formatCurrency(
+              d.value || 0
+            )}\n\n${
               policyAreaDescriptions[
                 d.data.id as keyof typeof policyAreaDescriptions
               ] || ''
