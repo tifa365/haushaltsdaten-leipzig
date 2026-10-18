@@ -124,6 +124,7 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
             onChange={(year) =>
               onChange({
                 ...mappedQuery,
+                district: district as ParsedPageQueryType['district'],
                 year: year as number,
               })
             }
@@ -146,7 +147,13 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
                 key={id}
                 type="button"
                 aria-pressed={view === id}
-                onClick={() => onChange({ ...mappedQuery, view: id })}
+                onClick={() =>
+                  onChange({
+                    ...mappedQuery,
+                    district: district as ParsedPageQueryType['district'],
+                    view: id,
+                  })
+                }
                 className={classNames(
                   'inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold',
                   'transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand',

@@ -2,7 +2,7 @@ import { ListItem } from '@components/ListItem'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState } from '@lib/utils/queryUtil'
 import { GetStaticProps } from 'next'
-import { FC, useState, useMemo, useEffect } from 'react'
+import { FC, useState, useMemo, useEffect, useRef } from 'react'
 import { unstable_batchedUpdates } from 'react-dom'
 import { ZOOM_TRANSITION_MS } from '@components/TreeMap'
 import useDimensions from 'react-cool-dimensions'
@@ -93,20 +93,42 @@ export const Visualization: FC = () => {
   const { push, replace, pathname, query, isReady } = useRouter()
 
   const parsedQuery = mapRawQueryToState(query)
-  const queriedPolicyArea: PolicyAreaKey | 'all' =
-    parsedQuery.district && parsedQuery.district in policyAreas
-      ? (parsedQuery.district as PolicyAreaKey)
-      : ALL_POLICY_AREAS
   const queriedYear =
     parsedQuery.year && isValidYear(parsedQuery.year)
       ? parsedQuery.year
       : DEFAULT_YEAR
   const queriedView = parsedQuery.view === 'bars' ? 'bars' : 'treemap'
-  // The policy area is the first level of the zoom path; a plain
-  // ?district=B (older links) opens that area too
-  const queriedNode =
-    parsedQuery.node ||
-    (queriedPolicyArea !== ALL_POLICY_AREAS ? queriedPolicyArea : null)
+
+  // The opened level lives in state, not in the address bar: a shared link
+  // (?node=C/3112, or ?district=C from older links) opens it once, then the
+  // URL is cleaned so a reload or a later visit starts at the main view
+  const [openNode, setOpenNode] = useState<string | null>(null)
+  const linkReadRef = useRef(false)
+  useEffect(() => {
+    if (!isReady || linkReadRef.current) return
+    linkReadRef.current = true
+    const district = parsedQuery.district
+    const linkedNode =
+      parsedQuery.node ||
+      (district && district in policyAreas ? district : null)
+    if (!linkedNode && !('district' in query)) return
+    setOpenNode(linkedNode)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { node: _node, district: _district, ...rest } = query
+    void replace({ pathname, query: rest }, undefined, { shallow: true })
+  }, [
+    isReady,
+    parsedQuery.node,
+    parsedQuery.district,
+    query,
+    pathname,
+    replace,
+  ])
+
+  // The policy area is the first level of the zoom path
+  const openArea = (openNode || '').split('/')[0]
+  const queriedPolicyArea: PolicyAreaKey | 'all' =
+    openArea in policyAreas ? (openArea as PolicyAreaKey) : ALL_POLICY_AREAS
 
   const {
     treemap: hierarchyData,
@@ -151,7 +173,7 @@ export const Visualization: FC = () => {
         year: queriedYear,
         district: queriedPolicyArea,
         view: queriedView,
-        node: queriedNode,
+        node: openNode,
       }}
     />
   )
@@ -182,15 +204,13 @@ export const Visualization: FC = () => {
                   const district = newQuery.district ?? ALL_POLICY_AREAS
                   if (district !== queriedPolicyArea) {
                     // The dropdown zooms the chart into that policy area
-                    // (the treemap animates when the node in the URL changes)
-                    if (district === ALL_POLICY_AREAS) {
-                      delete newQuery.node
-                      delete newQuery.district
-                    } else {
-                      newQuery.node = district
-                    }
+                    // (the treemap animates when its node prop changes)
+                    setOpenNode(district === ALL_POLICY_AREAS ? null : district)
+                    return
                   }
-                  // Year and view changes keep the opened level
+                  // Year and view stay in the URL; the opened level is kept
+                  delete newQuery.node
+                  delete newQuery.district
                   void push({ pathname, query: newQuery }, undefined, {
                     shallow: true,
                   })
@@ -249,28 +269,12 @@ export const Visualization: FC = () => {
                 width={width}
                 height={height}
                 view={queriedView}
-                node={queriedNode}
+                node={openNode}
                 onChangeLevel={(level) => {
                   const label = level.topicLabel || null
-                  const nodePath = level.nodePath || ''
-                  const district = nodePath.split('/')[0] || ''
-                  // Keep the opened level (and its policy area, shown in the
-                  // dropdown) in the URL so the view can be shared
-                  afterNextFrame(() => {
-                    if (
-                      nodePath === (queriedNode || '') &&
-                      (district || ALL_POLICY_AREAS) === queriedPolicyArea
-                    )
-                      return
-                    const nextQuery = { ...query }
-                    if (nodePath) nextQuery.node = nodePath
-                    else delete nextQuery.node
-                    if (district) nextQuery.district = district
-                    else delete nextQuery.district
-                    void replace({ pathname, query: nextQuery }, undefined, {
-                      shallow: true,
-                    })
-                  })
+                  // Remember the opened level for the dropdown and the
+                  // share links
+                  afterNextFrame(() => setOpenNode(level.nodePath || null))
                   // Zooming back out to the root resets the list filter
                   afterZoomAnimation(() =>
                     setSelectedNode(
